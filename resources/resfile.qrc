@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>images/haunted_house1.jpg</file>
+        <file>images/haunted_house2.jpg</file>
+        <file>images/haunted_house3.png</file>
+        <file>images/haunted_house4.png</file>
+        <file>images/haunted_house5.png</file>
+        <file>images/haunted_house6.jpg</file>
+        <file>images/outside.png</file>
+        <file>images/rock.png</file>
+        <file>images/tree.png</file>
+        <file>images/space.png</file>
+        <file>images/default.png</file>
+        <file>images/dashRight.png</file>
+        <file>images/dashLeft.png</file>
+        <file>images/item2.png</file>
+        <file>images/item1.png</file>
+        <file>images/bush.png</file>
+        <file>images/caveEntrance.png</file>
+        <file>images/brick.png</file>
+        <file>images/water.png</file>
+        <file>images/pole.png</file>
+        <file>images/boss.png</file>
+        <file>images/outsideWall.png</file>
+        <file>images/roof.png</file>
+        <file>images/roof2.png</file>
+        <file>images/player.png</file>
+        <file>images/grass.png</file>
+        <file>images/door.png</file>
+        <file>images/empty.png</file>
+        <file>images/villagerMale.png</file>
+        <file>images/villagerFemale.png</file>
+        <file>images/playerDown.png</file>
+        <file>images/playerRight.png</file>
+        <file>images/playerLeft.png</file>
+        <file>images/playerUp.png</file>
+        <file>images/dog.png</file>
+        <file>images/battleImg.png</file>
+        <file>images/oponent.png</file>
+    </qresource>
+</RCC>
