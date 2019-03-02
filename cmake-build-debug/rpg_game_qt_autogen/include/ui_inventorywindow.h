@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'inventorywindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.5.1
+** Created by: Qt User Interface Compiler version 5.12.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,12 +10,10 @@
 #define UI_INVENTORYWINDOW_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QGraphicsView>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QListWidget>
 #include <QtWidgets/QPushButton>
@@ -35,7 +33,7 @@ public:
     void setupUi(QDialog *InventoryWindow)
     {
         if (InventoryWindow->objectName().isEmpty())
-            InventoryWindow->setObjectName(QStringLiteral("InventoryWindow"));
+            InventoryWindow->setObjectName(QString::fromUtf8("InventoryWindow"));
         InventoryWindow->resize(640, 460);
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
@@ -45,37 +43,37 @@ public:
         InventoryWindow->setMinimumSize(QSize(640, 460));
         InventoryWindow->setMaximumSize(QSize(640, 460));
         QIcon icon;
-        icon.addFile(QStringLiteral(":/res/images/item1.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/res/images/item1.png"), QSize(), QIcon::Normal, QIcon::Off);
         InventoryWindow->setWindowIcon(icon);
         listWidget = new QListWidget(InventoryWindow);
-        listWidget->setObjectName(QStringLiteral("listWidget"));
+        listWidget->setObjectName(QString::fromUtf8("listWidget"));
         listWidget->setGeometry(QRect(23, 23, 251, 414));
-        listWidget->setStyleSheet(QStringLiteral("background-color: rgb(0, 0, 0, 120);"));
+        listWidget->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0, 120);"));
         playerLabel = new QLabel(InventoryWindow);
-        playerLabel->setObjectName(QStringLiteral("playerLabel"));
+        playerLabel->setObjectName(QString::fromUtf8("playerLabel"));
         playerLabel->setGeometry(QRect(420, 246, 191, 191));
-        playerLabel->setStyleSheet(QLatin1String("background-color: rgb(0, 0, 0, 120);\n"
+        playerLabel->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0, 120);\n"
 "color: rgb(255, 255, 255);\n"
 "font: 12pt \"MS UI Gothic\";"));
         graphicsView = new QGraphicsView(InventoryWindow);
-        graphicsView->setObjectName(QStringLiteral("graphicsView"));
+        graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
         graphicsView->setGeometry(QRect(0, 0, 640, 460));
         sizePolicy.setHeightForWidth(graphicsView->sizePolicy().hasHeightForWidth());
         graphicsView->setSizePolicy(sizePolicy);
         graphicsView->setMinimumSize(QSize(640, 460));
         graphicsView->setMaximumSize(QSize(640, 460));
-        graphicsView->setStyleSheet(QStringLiteral("background-image: url(:/res/images/dog.png);"));
+        graphicsView->setStyleSheet(QString::fromUtf8("background-image: url(:/res/images/dog.png);"));
         closeButton = new QPushButton(InventoryWindow);
-        closeButton->setObjectName(QStringLiteral("closeButton"));
+        closeButton->setObjectName(QString::fromUtf8("closeButton"));
         closeButton->setGeometry(QRect(310, 340, 81, 41));
         useButton = new QPushButton(InventoryWindow);
-        useButton->setObjectName(QStringLiteral("useButton"));
+        useButton->setObjectName(QString::fromUtf8("useButton"));
         useButton->setGeometry(QRect(310, 260, 81, 41));
-        useButton->setStyleSheet(QStringLiteral(""));
+        useButton->setStyleSheet(QString::fromUtf8(""));
         label = new QLabel(InventoryWindow);
-        label->setObjectName(QStringLiteral("label"));
+        label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(330, 23, 281, 171));
-        label->setStyleSheet(QLatin1String("background-color: rgb(0, 0, 0, 120);\n"
+        label->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0, 120);\n"
 "color: rgb(255, 255, 255);\n"
 "font: 12pt \"MS UI Gothic\";"));
         graphicsView->raise();
@@ -92,10 +90,10 @@ public:
 
     void retranslateUi(QDialog *InventoryWindow)
     {
-        InventoryWindow->setWindowTitle(QApplication::translate("InventoryWindow", "Inventory", 0));
+        InventoryWindow->setWindowTitle(QApplication::translate("InventoryWindow", "Inventory", nullptr));
         playerLabel->setText(QString());
-        closeButton->setText(QApplication::translate("InventoryWindow", "Close", 0));
-        useButton->setText(QApplication::translate("InventoryWindow", "Use", 0));
+        closeButton->setText(QApplication::translate("InventoryWindow", "Close", nullptr));
+        useButton->setText(QApplication::translate("InventoryWindow", "Use", nullptr));
         label->setText(QString());
     } // retranslateUi
 

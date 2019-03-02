@@ -14,7 +14,7 @@
    <string>Map</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="resfile.qrc">
+   <iconset resource="../resources/resfile.qrc">
     <normaloff>:/res/images/bush.png</normaloff>:/res/images/bush.png</iconset>
   </property>
   <property name="styleSheet">
@@ -30,7 +30,7 @@
     </rect>
    </property>
    <property name="autoScroll">
-    <bool>false</bool>
+    <bool>true</bool>
    </property>
    <property name="editTriggers">
     <set>QAbstractItemView::NoEditTriggers</set>
@@ -59,8 +59,20 @@
    <attribute name="horizontalHeaderVisible">
     <bool>false</bool>
    </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>16</number>
+   </attribute>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>16</number>
+   </attribute>
    <attribute name="verticalHeaderVisible">
     <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>16</number>
+   </attribute>
+   <attribute name="verticalHeaderMinimumSectionSize">
+    <number>16</number>
    </attribute>
   </widget>
   <widget class="QGraphicsView" name="graphicsView">
@@ -131,7 +143,7 @@
   <zorder>graphicsView_2</zorder>
  </widget>
  <resources>
-  <include location="resfile.qrc"/>
+  <include location="../resources/resfile.qrc"/>
  </resources>
  <connections/>
 </ui>

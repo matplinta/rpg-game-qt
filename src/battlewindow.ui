@@ -20,7 +20,7 @@
    <string>Battle</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="resfile.qrc">
+   <iconset resource="../resources/resfile.qrc">
     <normaloff>:/res/images/boss.png</normaloff>:/res/images/boss.png</iconset>
   </property>
   <widget class="QGraphicsView" name="graphicsView">
@@ -131,7 +131,7 @@ font: 14pt &quot;MS UI Gothic&quot;;</string>
   </widget>
  </widget>
  <resources>
-  <include location="resfile.qrc"/>
+  <include location="../resources/resfile.qrc"/>
  </resources>
  <connections/>
 </ui>

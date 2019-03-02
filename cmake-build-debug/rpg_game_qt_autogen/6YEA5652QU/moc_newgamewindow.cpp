@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'newgamewindow.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.5.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,12 +12,14 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'newgamewindow.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.5.1. It"
+#error "This file was generated using the moc from 5.12.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_NewGameWindow_t {
     QByteArrayData data[3];
     char stringdata0[38];
@@ -42,7 +44,7 @@ QT_MOC_LITERAL(2, 37, 0) // ""
 static const uint qt_meta_data_NewGameWindow[] = {
 
  // content:
-       7,       // revision
+       8,       // revision
        0,       // classname
        0,    0, // classinfo
        1,   14, // methods
@@ -64,7 +66,7 @@ static const uint qt_meta_data_NewGameWindow[] = {
 void NewGameWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        NewGameWindow *_t = static_cast<NewGameWindow *>(_o);
+        auto *_t = static_cast<NewGameWindow *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->on_startButton_clicked(); break;
@@ -74,10 +76,14 @@ void NewGameWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
     Q_UNUSED(_a);
 }
 
-const QMetaObject NewGameWindow::staticMetaObject = {
-    { &QWidget::staticMetaObject, qt_meta_stringdata_NewGameWindow.data,
-      qt_meta_data_NewGameWindow,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
-};
+QT_INIT_METAOBJECT const QMetaObject NewGameWindow::staticMetaObject = { {
+    &QWidget::staticMetaObject,
+    qt_meta_stringdata_NewGameWindow.data,
+    qt_meta_data_NewGameWindow,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
 
 
 const QMetaObject *NewGameWindow::metaObject() const
@@ -87,9 +93,9 @@ const QMetaObject *NewGameWindow::metaObject() const
 
 void *NewGameWindow::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
+    if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_NewGameWindow.stringdata0))
-        return static_cast<void*>(const_cast< NewGameWindow*>(this));
+        return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
 
@@ -109,4 +115,5 @@ int NewGameWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     }
     return _id;
 }
+QT_WARNING_POP
 QT_END_MOC_NAMESPACE

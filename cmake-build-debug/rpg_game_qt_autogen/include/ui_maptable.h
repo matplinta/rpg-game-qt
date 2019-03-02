@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'maptable.ui'
 **
-** Created by: Qt User Interface Compiler version 5.5.1
+** Created by: Qt User Interface Compiler version 5.12.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,9 +10,8 @@
 #define UI_MAPTABLE_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QGraphicsView>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
@@ -37,16 +36,16 @@ public:
     void setupUi(QWidget *MapTable)
     {
         if (MapTable->objectName().isEmpty())
-            MapTable->setObjectName(QStringLiteral("MapTable"));
+            MapTable->setObjectName(QString::fromUtf8("MapTable"));
         MapTable->resize(640, 460);
         QIcon icon;
-        icon.addFile(QStringLiteral(":/res/images/bush.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/res/images/bush.png"), QSize(), QIcon::Normal, QIcon::Off);
         MapTable->setWindowIcon(icon);
-        MapTable->setStyleSheet(QStringLiteral(""));
+        MapTable->setStyleSheet(QString::fromUtf8(""));
         tableWidget = new QTableWidget(MapTable);
-        tableWidget->setObjectName(QStringLiteral("tableWidget"));
+        tableWidget->setObjectName(QString::fromUtf8("tableWidget"));
         tableWidget->setGeometry(QRect(23, 23, 594, 338));
-        tableWidget->setAutoScroll(false);
+        tableWidget->setAutoScroll(true);
         tableWidget->setEditTriggers(QAbstractItemView::NoEditTriggers);
         tableWidget->setTabKeyNavigation(false);
         tableWidget->setProperty("showDropIndicator", QVariant(false));
@@ -56,29 +55,33 @@ public:
         tableWidget->setGridStyle(Qt::NoPen);
         tableWidget->setCornerButtonEnabled(false);
         tableWidget->horizontalHeader()->setVisible(false);
+        tableWidget->horizontalHeader()->setDefaultSectionSize(16);
+        tableWidget->horizontalHeader()->setMinimumSectionSize(16);
         tableWidget->verticalHeader()->setVisible(false);
+        tableWidget->verticalHeader()->setDefaultSectionSize(16);
+        tableWidget->verticalHeader()->setMinimumSectionSize(16);
         graphicsView = new QGraphicsView(MapTable);
-        graphicsView->setObjectName(QStringLiteral("graphicsView"));
+        graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
         graphicsView->setGeometry(QRect(0, 0, 640, 460));
-        graphicsView->setStyleSheet(QStringLiteral("background-color: rgb(1, 1, 27);"));
+        graphicsView->setStyleSheet(QString::fromUtf8("background-color: rgb(1, 1, 27);"));
         layoutWidget = new QWidget(MapTable);
-        layoutWidget->setObjectName(QStringLiteral("layoutWidget"));
+        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
         layoutWidget->setGeometry(QRect(30, 380, 581, 31));
         horizontalLayout = new QHBoxLayout(layoutWidget);
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         inventoryButton = new QPushButton(layoutWidget);
-        inventoryButton->setObjectName(QStringLiteral("inventoryButton"));
+        inventoryButton->setObjectName(QString::fromUtf8("inventoryButton"));
 
         horizontalLayout->addWidget(inventoryButton);
 
         saveButton = new QPushButton(layoutWidget);
-        saveButton->setObjectName(QStringLiteral("saveButton"));
+        saveButton->setObjectName(QString::fromUtf8("saveButton"));
 
         horizontalLayout->addWidget(saveButton);
 
         exitButton = new QPushButton(layoutWidget);
-        exitButton->setObjectName(QStringLiteral("exitButton"));
+        exitButton->setObjectName(QString::fromUtf8("exitButton"));
 
         horizontalLayout->addWidget(exitButton);
 
@@ -86,9 +89,9 @@ public:
         saveButton->raise();
         inventoryButton->raise();
         graphicsView_2 = new QGraphicsView(MapTable);
-        graphicsView_2->setObjectName(QStringLiteral("graphicsView_2"));
+        graphicsView_2->setObjectName(QString::fromUtf8("graphicsView_2"));
         graphicsView_2->setGeometry(QRect(23, 23, 594, 338));
-        graphicsView_2->setStyleSheet(QStringLiteral("background-color: rgb(0, 0, 0, 1);"));
+        graphicsView_2->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0, 1);"));
         graphicsView->raise();
         tableWidget->raise();
         layoutWidget->raise();
@@ -101,10 +104,10 @@ public:
 
     void retranslateUi(QWidget *MapTable)
     {
-        MapTable->setWindowTitle(QApplication::translate("MapTable", "Map", 0));
-        inventoryButton->setText(QApplication::translate("MapTable", "Show Inventory", 0));
-        saveButton->setText(QApplication::translate("MapTable", "Save", 0));
-        exitButton->setText(QApplication::translate("MapTable", "Exit", 0));
+        MapTable->setWindowTitle(QApplication::translate("MapTable", "Map", nullptr));
+        inventoryButton->setText(QApplication::translate("MapTable", "Show Inventory", nullptr));
+        saveButton->setText(QApplication::translate("MapTable", "Save", nullptr));
+        exitButton->setText(QApplication::translate("MapTable", "Exit", nullptr));
     } // retranslateUi
 
 };

@@ -43,9 +43,13 @@ void MapTable::mapTableFill(Maps *mapa)
        }
        else{
            cellFill(rows, cols, InterpreterAdapter::interpreter(tab[rows][cols]));
+//           std::cout<<"ROW: "<<rows<<" COLS: "<<cols<<" STR: "<<InterpreterAdapter::interpreter(tab[rows][cols])<<std::endl;
            cols++;
        }
      }
+    std::cout<<ui->tableWidget->verticalHeader()->defaultSectionSize()<<std::endl;
+    std::cout<<ui->tableWidget->horizontalHeader()->defaultSectionSize()<<std::endl;
+
 }
 void MapTable::mapPlayerUpdate(std::string orientation)
 {   Player::instance()->setOrientation(orientation);

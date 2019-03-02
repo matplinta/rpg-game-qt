@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "rpg_game_qt_autogen"
-  "CMakeFiles/rpg_game_qt_autogen.dir/AutogenOldSettings.cmake"
+  "CMakeFiles/rpg_game_qt_autogen.dir/AutogenOldSettings.txt"
   "rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp"
   "CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.o"
   "CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o"
