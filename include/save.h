@@ -69,7 +69,7 @@ public:
         QFile file(QString::fromStdString(file_name));
         file.open(QIODevice::WriteOnly | QIODevice::Text);
         writePlayerInfo(file, player);
-        QMessageBox::information(0, "Info", "GAME SAVED SUCCESSFULLY\n");
+        QMessageBox::information(0, "Info", "Game saved successfully.\n");
     }
     void loadGame()
     {

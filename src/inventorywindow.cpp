@@ -63,25 +63,25 @@ void InventoryWindow::on_listWidget_itemClicked(QListWidgetItem *elem)
     info.append(item->getName() + "\n\n");
     if (item->getMaxHealth())
     {
-        info.append("+" + std::to_string(item->getMaxHealth()) +  " MaxHP\n");
+        info.append("+" + std::to_string(item->getMaxHealth()) +  "\t\tMaxHP\n");
     }
     if (item->getHealth())
     {
-        info.append( "+" + std::to_string(item->getHealth()) + " HP\n" );
+        info.append( "+" + std::to_string(item->getHealth()) + "\t\tHP\n" );
 
     }
     if (item->getStrength())
     {
-        info.append( "+" +  std::to_string(item->getStrength()) + " STRENGTH\n");
+        info.append( "+" +  std::to_string(item->getStrength()) + "\t\tSTRENGTH\n");
     }
     if (item->getLevel())
     {
-        info.append( "+" + std::to_string(item->getLevel()) + " LEVEL\n");
+        info.append( "+" + std::to_string(item->getLevel()) + "\t\tLEVEL\n");
 
     }
     if (item->getEXP())
     {
-       info.append( "+" + std::to_string(item->getEXP()) + " EXP\n");
+       info.append( "+" + std::to_string(item->getEXP()) + "\t\tEXP\n");
     }
     ui->label->setText(QString::fromStdString(info));
     ui->label->setAlignment(Qt::AlignLeft | Qt::AlignTop);
@@ -98,26 +98,26 @@ void InventoryWindow::showPlayerInfo()
     }
     if (player->getMaxHealth())
     {
-        info.append("MaxHP:       " + std::to_string(player->getMaxHealth()) +  " \n");
+        info.append("MaxHP:\t\t" + std::to_string(player->getMaxHealth()) +  " \n");
     }
     if (player->getHealth())
     {
-        info.append( "HP:             " + std::to_string(player->getHealth()) + " \n" );
+        info.append( "HP:\t\t" + std::to_string(player->getHealth()) + " \n" );
 
     }
     if (player->getStrength())
     {
-        info.append( "STRENGTH:  " +  std::to_string(player->getStrength()) + " \n");
+        info.append( "STRENGTH:\t" +  std::to_string(player->getStrength()) + " \n");
     }
     if (player->getLevel())
     {
-        info.append( "LEVEL:        " + std::to_string(player->getLevel()) + " \n");
+        info.append( "LEVEL:\t\t" + std::to_string(player->getLevel()) + " \n");
 
     }
-    info.append( "EXP:            " + std::to_string(player->getEXP()) + " \n");
+    info.append( "EXP:\t\t" + std::to_string(player->getEXP()) + " \n");
     if (player->getRequiredEXP())
     {
-       info.append( "Next lvl EXP: " + std::to_string(player->getRequiredEXP()) + " \n");
+       info.append( "Next lvl EXP:\t" + std::to_string(player->getRequiredEXP()) + " \n");
     }
     ui->playerLabel->setText(QString::fromStdString(info));
     ui->playerLabel->setAlignment(Qt::AlignLeft | Qt::AlignTop);

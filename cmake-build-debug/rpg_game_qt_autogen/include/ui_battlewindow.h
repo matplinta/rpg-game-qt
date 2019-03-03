@@ -46,7 +46,7 @@ public:
         graphicsView = new QGraphicsView(BattleWindow);
         graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
         graphicsView->setGeometry(QRect(0, 0, 640, 460));
-        graphicsView->setStyleSheet(QString::fromUtf8("background-image: url(:/res/images/battleImg.png);"));
+        graphicsView->setStyleSheet(QString::fromUtf8("border-image: url(:/res/images/battle-background0.png) 0 0 0 0 stretch stretch;"));
         playerLabel = new QLabel(BattleWindow);
         playerLabel->setObjectName(QString::fromUtf8("playerLabel"));
         playerLabel->setGeometry(QRect(40, 42, 221, 121));

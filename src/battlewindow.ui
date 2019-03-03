@@ -33,7 +33,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/res/images/battleImg.png);</string>
+    <string notr="true">border-image: url(:/res/images/battle-background0.png) 0 0 0 0 stretch stretch;</string>
    </property>
   </widget>
   <widget class="QLabel" name="playerLabel">

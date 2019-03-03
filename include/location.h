@@ -16,16 +16,22 @@ class Location
 {
 public:
     Location(int);
+    Location(int, bool);
     Maps *getRawMap();
     Maps *getActivMap();
     void addElement(Element*);
     Element* getElement(int);
     Element* getElement(int, int);
     void deleteElement(int, int);
+    bool isNight();
+    void setNight(bool night);
 protected:
     Maps *rawMap;
     Maps *activMap;
     std::vector<Element *> locationElements;
+    bool night;
+
+
 };
 
 class LocationHome : public Location

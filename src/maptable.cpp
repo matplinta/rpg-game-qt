@@ -35,6 +35,7 @@ void MapTable::mapTableInit(int maxRows, int maxCols, int defSectionSize)
 }
 void MapTable::mapTableFill(Maps *mapa)
 {
+
     std::vector<std::string> tab = mapa->getMapInTxt();
     for( int i = 0, rows = 0, cols = 0; i < maxCol * maxRow + 20 ; i++){
        if ( cols == maxCol ){
@@ -43,12 +44,11 @@ void MapTable::mapTableFill(Maps *mapa)
        }
        else{
            cellFill(rows, cols, InterpreterAdapter::interpreter(tab[rows][cols]));
-//           std::cout<<"ROW: "<<rows<<" COLS: "<<cols<<" STR: "<<InterpreterAdapter::interpreter(tab[rows][cols])<<std::endl;
            cols++;
        }
      }
-    std::cout<<ui->tableWidget->verticalHeader()->defaultSectionSize()<<std::endl;
-    std::cout<<ui->tableWidget->horizontalHeader()->defaultSectionSize()<<std::endl;
+//    std::cout<<ui->tableWidget->verticalHeader()->defaultSectionSize()<<std::endl;
+//    std::cout<<ui->tableWidget->horizontalHeader()->defaultSectionSize()<<std::endl;
 
 }
 void MapTable::mapPlayerUpdate(std::string orientation)
@@ -71,9 +71,13 @@ void MapTable::mapPlayerUpdate()
 }
 void MapTable::cellFill(int row, int column, std::string element )
 {
+    std::string nightPrefixConcatenate = "";
+    if(location->isNight()){
+        nightPrefixConcatenate = "night_";
+    }
     QTableWidgetItem* item = new QTableWidgetItem();
-    item->setBackground(QBrush(QPixmap(QString::fromStdString(":/res/images/" + element + ".png"))));
-    ui->tableWidget->setItem(row, column,item);
+    item->setBackground(QBrush(QPixmap(QString::fromStdString(":/res/images/" + nightPrefixConcatenate + element + ".png"))));
+    ui->tableWidget->setItem(row, column, item);
 }
 
 bool MapTable::checkFollowingMove( int x, int y)
@@ -162,7 +166,7 @@ void MapTable::actionHandler(char temp)
 
     else
     {
-        QMessageBox::information(0, "hehe", "niedrzwi");
+        QMessageBox::information(0, "Dialog", "Unknown interaction.a");
     }
 
 }
@@ -220,7 +224,12 @@ MapTable::~MapTable()
 
 void MapTable::on_exitButton_clicked()
 {
-    this->close();
+    QMessageBox::StandardButton reply;
+    reply = QMessageBox::question(this, "Attention", "Are you sure you want to quit? Any unsaved progress will be lost.", QMessageBox::Yes|QMessageBox::No);
+    if (reply == QMessageBox::Yes)
+    {
+        parentWidget()->parentWidget()->close();
+    }
 }
 
 void MapTable::on_inventoryButton_clicked()
@@ -228,7 +237,6 @@ void MapTable::on_inventoryButton_clicked()
     emit sendPlayer(Player::instance());
     invWindow->inventoryFill();
     invWindow->exec();
-
 }
 
 void MapTable::on_saveButton_clicked()

@@ -325,10 +325,16 @@
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
@@ -346,7 +352,16 @@
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake">
@@ -355,7 +370,31 @@
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">

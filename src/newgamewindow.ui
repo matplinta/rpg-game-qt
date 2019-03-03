@@ -33,16 +33,16 @@
     </sizepolicy>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/res/images/haunted_house4.png);</string>
+    <string notr="true">border-image: url(:/res/images/graphics1.jpg)  0 0 0 0 stretch stretch;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>50</y>
-     <width>321</width>
-     <height>31</height>
+     <x>40</x>
+     <y>40</y>
+     <width>231</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -51,15 +51,16 @@ font: 16pt &quot;MS UI Gothic&quot;;
 color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
-    <string>Please enter your character's name:</string>
+    <string>Please enter your 
+character's name:</string>
    </property>
   </widget>
   <widget class="QTextEdit" name="nameTextEdit">
    <property name="geometry">
     <rect>
-     <x>330</x>
-     <y>130</y>
-     <width>181</width>
+     <x>260</x>
+     <y>50</y>
+     <width>131</width>
      <height>31</height>
     </rect>
    </property>
@@ -72,8 +73,8 @@ color: rgb(0, 0, 0);</string>
   <widget class="QPushButton" name="startButton">
    <property name="geometry">
     <rect>
-     <x>460</x>
-     <y>350</y>
+     <x>480</x>
+     <y>360</y>
      <width>101</width>
      <height>41</height>
     </rect>

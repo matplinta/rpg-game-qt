@@ -47,11 +47,12 @@ public:
         InventoryWindow->setWindowIcon(icon);
         listWidget = new QListWidget(InventoryWindow);
         listWidget->setObjectName(QString::fromUtf8("listWidget"));
-        listWidget->setGeometry(QRect(23, 23, 251, 414));
-        listWidget->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0, 120);"));
+        listWidget->setGeometry(QRect(23, 23, 251, 411));
+        listWidget->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0, 120);\n"
+"color: rgb(255, 255, 255);"));
         playerLabel = new QLabel(InventoryWindow);
         playerLabel->setObjectName(QString::fromUtf8("playerLabel"));
-        playerLabel->setGeometry(QRect(420, 246, 191, 191));
+        playerLabel->setGeometry(QRect(380, 220, 231, 211));
         playerLabel->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0, 120);\n"
 "color: rgb(255, 255, 255);\n"
 "font: 12pt \"MS UI Gothic\";"));
@@ -62,13 +63,13 @@ public:
         graphicsView->setSizePolicy(sizePolicy);
         graphicsView->setMinimumSize(QSize(640, 460));
         graphicsView->setMaximumSize(QSize(640, 460));
-        graphicsView->setStyleSheet(QString::fromUtf8("background-image: url(:/res/images/dog.png);"));
+        graphicsView->setStyleSheet(QString::fromUtf8("border-image: url(:/res/images/inventory-brackground0.jpg) 0 0 0 0 stretch stretch;"));
         closeButton = new QPushButton(InventoryWindow);
         closeButton->setObjectName(QString::fromUtf8("closeButton"));
-        closeButton->setGeometry(QRect(310, 340, 81, 41));
+        closeButton->setGeometry(QRect(290, 340, 71, 81));
         useButton = new QPushButton(InventoryWindow);
         useButton->setObjectName(QString::fromUtf8("useButton"));
-        useButton->setGeometry(QRect(310, 260, 81, 41));
+        useButton->setGeometry(QRect(290, 230, 71, 81));
         useButton->setStyleSheet(QString::fromUtf8(""));
         label = new QLabel(InventoryWindow);
         label->setObjectName(QString::fromUtf8("label"));
@@ -80,8 +81,8 @@ public:
         listWidget->raise();
         playerLabel->raise();
         closeButton->raise();
-        useButton->raise();
         label->raise();
+        useButton->raise();
 
         retranslateUi(InventoryWindow);
 

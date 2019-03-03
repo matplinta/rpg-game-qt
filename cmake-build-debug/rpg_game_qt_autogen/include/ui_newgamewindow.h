@@ -44,22 +44,22 @@ public:
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(graphicsView->sizePolicy().hasHeightForWidth());
         graphicsView->setSizePolicy(sizePolicy);
-        graphicsView->setStyleSheet(QString::fromUtf8("background-image: url(:/res/images/haunted_house4.png);"));
+        graphicsView->setStyleSheet(QString::fromUtf8("border-image: url(:/res/images/graphics1.jpg)  0 0 0 0 stretch stretch;"));
         label = new QLabel(NewGameWindow);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(240, 50, 321, 31));
+        label->setGeometry(QRect(40, 40, 231, 51));
         label->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
 "font: 16pt \"MS UI Gothic\";\n"
 "color: rgb(255, 255, 255);"));
         nameTextEdit = new QTextEdit(NewGameWindow);
         nameTextEdit->setObjectName(QString::fromUtf8("nameTextEdit"));
-        nameTextEdit->setGeometry(QRect(330, 130, 181, 31));
+        nameTextEdit->setGeometry(QRect(260, 50, 131, 31));
         nameTextEdit->setStyleSheet(QString::fromUtf8("font: 12pt \"MS UI Gothic\";\n"
 "background-color: rgb(255, 252, 253);\n"
 "color: rgb(0, 0, 0);"));
         startButton = new QPushButton(NewGameWindow);
         startButton->setObjectName(QString::fromUtf8("startButton"));
-        startButton->setGeometry(QRect(460, 350, 101, 41));
+        startButton->setGeometry(QRect(480, 360, 101, 41));
         graphicsView->raise();
         label->raise();
         startButton->raise();
@@ -73,7 +73,8 @@ public:
     void retranslateUi(QWidget *NewGameWindow)
     {
         NewGameWindow->setWindowTitle(QApplication::translate("NewGameWindow", "New Game", nullptr));
-        label->setText(QApplication::translate("NewGameWindow", "Please enter your character's name:", nullptr));
+        label->setText(QApplication::translate("NewGameWindow", "Please enter your \n"
+"character's name:", nullptr));
         startButton->setText(QApplication::translate("NewGameWindow", "Start", nullptr));
     } // retranslateUi
 

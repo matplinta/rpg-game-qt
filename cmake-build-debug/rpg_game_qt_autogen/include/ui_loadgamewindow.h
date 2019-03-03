@@ -41,7 +41,7 @@ public:
         graphicsView = new QGraphicsView(LoadGameWindow);
         graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
         graphicsView->setGeometry(QRect(0, 0, 640, 460));
-        graphicsView->setStyleSheet(QString::fromUtf8("border-image: url(:/res/images/haunted_house5.png) 0 0 0 0 stretch stretch;"));
+        graphicsView->setStyleSheet(QString::fromUtf8("border-image: url(:/res/images/graphics1.jpg)  0 0 0 0 stretch stretch;"));
         listWidget = new QListWidget(LoadGameWindow);
         listWidget->setObjectName(QString::fromUtf8("listWidget"));
         listWidget->setGeometry(QRect(70, 90, 500, 281));
@@ -69,7 +69,7 @@ public:
     void retranslateUi(QWidget *LoadGameWindow)
     {
         LoadGameWindow->setWindowTitle(QApplication::translate("LoadGameWindow", "Form", nullptr));
-        label->setText(QApplication::translate("LoadGameWindow", "Select your save to load:", nullptr));
+        label->setText(QApplication::translate("LoadGameWindow", "Select your save:", nullptr));
         loadButton->setText(QApplication::translate("LoadGameWindow", "Load", nullptr));
         backButton->setText(QApplication::translate("LoadGameWindow", "Back", nullptr));
     } // retranslateUi

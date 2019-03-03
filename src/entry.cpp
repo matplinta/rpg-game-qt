@@ -15,6 +15,8 @@ entry::~entry()
 
 void entry::on_nextButton_clicked()
 {
+
     mapWindow = new MapTable(this);
+
     mapWindow->show();
 }

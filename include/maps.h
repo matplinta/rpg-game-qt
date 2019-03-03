@@ -37,13 +37,20 @@ public:
     std::vector<std::string> getMapInTxt() {return mapInTxt;}
 
     int getRows(){return rows;}
-
     int getCols(){return cols;}
 
+    // map format 21x37 -1 = 0-20; 0-36
     char getCell(int row, int col)
     {
-        return mapInTxt[row][col];
+        if(row >= 0 && row < 21 && col >= 0 && row < 37)
+        {
+            return mapInTxt[row][col];
+        }
+        else
+            return '!';
+
     }
+
     void setCell(int col, int row, std::string sign)
     {
         mapInTxt[row].replace(col, 1, sign);

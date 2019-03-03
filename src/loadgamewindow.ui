@@ -29,7 +29,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">border-image: url(:/res/images/haunted_house5.png) 0 0 0 0 stretch stretch;</string>
+    <string notr="true">border-image: url(:/res/images/graphics1.jpg)  0 0 0 0 stretch stretch;</string>
    </property>
   </widget>
   <widget class="QListWidget" name="listWidget">
@@ -62,7 +62,7 @@ font: 16pt &quot;MS UI Gothic&quot;;
 color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
-    <string>Select your save to load:</string>
+    <string>Select your save:</string>
    </property>
   </widget>
   <widget class="QPushButton" name="loadButton">

@@ -32,7 +32,7 @@
    <string>Inventory</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="resfile.qrc">
+   <iconset resource="../resources/resfile.qrc">
     <normaloff>:/res/images/item1.png</normaloff>:/res/images/item1.png</iconset>
   </property>
   <widget class="QListWidget" name="listWidget">
@@ -41,20 +41,21 @@
      <x>23</x>
      <y>23</y>
      <width>251</width>
-     <height>414</height>
+     <height>411</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(0, 0, 0, 120);</string>
+    <string notr="true">background-color: rgb(0, 0, 0, 120);
+color: rgb(255, 255, 255);</string>
    </property>
   </widget>
   <widget class="QLabel" name="playerLabel">
    <property name="geometry">
     <rect>
-     <x>420</x>
-     <y>246</y>
-     <width>191</width>
-     <height>191</height>
+     <x>380</x>
+     <y>220</y>
+     <width>231</width>
+     <height>211</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -94,16 +95,16 @@ font: 12pt &quot;MS UI Gothic&quot;;</string>
     </size>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/res/images/dog.png);</string>
+    <string notr="true">border-image: url(:/res/images/inventory-brackground0.jpg) 0 0 0 0 stretch stretch;</string>
    </property>
   </widget>
   <widget class="QPushButton" name="closeButton">
    <property name="geometry">
     <rect>
-     <x>310</x>
+     <x>290</x>
      <y>340</y>
-     <width>81</width>
-     <height>41</height>
+     <width>71</width>
+     <height>81</height>
     </rect>
    </property>
    <property name="text">
@@ -113,10 +114,10 @@ font: 12pt &quot;MS UI Gothic&quot;;</string>
   <widget class="QPushButton" name="useButton">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>260</y>
-     <width>81</width>
-     <height>41</height>
+     <x>290</x>
+     <y>230</y>
+     <width>71</width>
+     <height>81</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -148,11 +149,11 @@ font: 12pt &quot;MS UI Gothic&quot;;</string>
   <zorder>listWidget</zorder>
   <zorder>playerLabel</zorder>
   <zorder>closeButton</zorder>
-  <zorder>useButton</zorder>
   <zorder>label</zorder>
+  <zorder>useButton</zorder>
  </widget>
  <resources>
-  <include location="resfile.qrc"/>
+  <include location="../resources/resfile.qrc"/>
  </resources>
  <connections/>
 </ui>

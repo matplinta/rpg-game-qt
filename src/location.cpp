@@ -3,6 +3,12 @@
     Location::Location(int locNum)
     {
         rawMap = new Maps(locNum);
+        night = false;
+    }
+    Location::Location(int locNum, bool nightMode)
+    {
+        rawMap = new Maps(locNum);
+        night = nightMode;
     }
     Maps *Location::getRawMap(){return rawMap;}
     Maps *Location::getActivMap()
@@ -53,20 +59,28 @@
         }
     }
 
-    LocationHome::LocationHome():Location(0)
+bool Location::isNight() {
+    return night;
+}
+
+void Location::setNight(bool night) {
+    Location::night = night;
+}
+
+LocationHome::LocationHome():Location(0)
     {
 
         addElement(new Item(10,7, "*", "Iteeem", "aaa", 100, 5,100,0,0,0));
         addElement(new Item(11,7, "*", "i2", "aaa", 1111, 5,5,0,0,0));
         addElement(new Item(12,7, "*", "i3", "aaa", 102220, 5,5,0,0,0));
-        addElement(new Oponent(27,7,"o","Ghost", 5));
+        addElement(new Oponent(27,7,"o","Ghost", 1));
         addElement(new Villager(5,5, "B","lol", 2));
         addElement(new Door(27,18,"ShadowHills0", 25, 7));
         addElement(new Door(28,18,"ShadowHills0", 25, 7));
 
     }
 
-    LocationShadowHills0::LocationShadowHills0():Location(1)
+    LocationShadowHills0::LocationShadowHills0():Location(1, true)
     {
         addElement(new Item(8,2, "*", "POTION", "Replenishes player's health", 100, 0,0,0,0,0));
         addElement(new Villager(5,5, "f","lol", 2));

@@ -1,16 +1,12 @@
 <RCC>
     <qresource prefix="/res">
-        <file>images/haunted_house1.jpg</file>
-        <file>images/haunted_house2.jpg</file>
-        <file>images/haunted_house3.png</file>
-        <file>images/haunted_house4.png</file>
-        <file>images/haunted_house5.png</file>
-        <file>images/haunted_house6.jpg</file>
+        <file>images/empty.png</file>
+        <file>images/default.png</file>
+
         <file>images/outside.png</file>
         <file>images/rock.png</file>
         <file>images/tree.png</file>
         <file>images/space.png</file>
-        <file>images/default.png</file>
         <file>images/dashRight.png</file>
         <file>images/dashLeft.png</file>
         <file>images/item2.png</file>
@@ -27,15 +23,45 @@
         <file>images/player.png</file>
         <file>images/grass.png</file>
         <file>images/door.png</file>
-        <file>images/empty.png</file>
         <file>images/villagerMale.png</file>
         <file>images/villagerFemale.png</file>
         <file>images/playerDown.png</file>
         <file>images/playerRight.png</file>
         <file>images/playerLeft.png</file>
         <file>images/playerUp.png</file>
-        <file>images/dog.png</file>
-        <file>images/battleImg.png</file>
         <file>images/oponent.png</file>
+
+        <file>images/night_outside.png</file>
+        <file>images/night_rock.png</file>
+        <file>images/night_tree.png</file>
+        <file>images/night_space.png</file>
+        <file>images/night_dashRight.png</file>
+        <file>images/night_dashLeft.png</file>
+        <file>images/night_item2.png</file>
+        <file>images/night_item1.png</file>
+        <file>images/night_bush.png</file>
+        <file>images/night_caveEntrance.png</file>
+        <file>images/night_brick.png</file>
+        <file>images/night_water.png</file>
+        <file>images/night_pole.png</file>
+        <file>images/night_boss.png</file>
+        <file>images/night_outsideWall.png</file>
+        <file>images/night_roof.png</file>
+        <file>images/night_roof2.png</file>
+        <file>images/night_player.png</file>
+        <file>images/night_grass.png</file>
+        <file>images/night_door.png</file>
+        <file>images/night_villagerMale.png</file>
+        <file>images/night_villagerFemale.png</file>
+        <file>images/night_playerDown.png</file>
+        <file>images/night_playerRight.png</file>
+        <file>images/night_playerLeft.png</file>
+        <file>images/night_playerUp.png</file>
+        <file>images/night_oponent.png</file>
+
+        <file>images/graphics0.jpeg</file>
+        <file>images/graphics1.jpg</file>
+        <file>images/battle-background0.png</file>
+        <file>images/inventory-brackground0.jpg</file>
     </qresource>
 </RCC>

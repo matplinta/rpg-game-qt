@@ -24,6 +24,9 @@ private slots:
 
     void on_loadButton_clicked();
 
+    void closeEvent(QCloseEvent *);
+
+
 private:
     Ui::MainWindow *ui;
     NewGameWindow *newGameWindow;
