@@ -26,9 +26,13 @@ void NewGameWindow::on_startButton_clicked()
     }
     else
     {
+        // Player instance proper initialization
         Player::setPlayer(name.toStdString());
         Player::instance()->setPosition(7,7);
         Player::instance()->setCurrentLocation("Home");
+
+        // LocationFlyweight instance proper initialization
+        LocationFlyweight::setInstance();
         Entry = new entry(this);
         Entry->show();
     }

@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o"
   "CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o"
   "CMakeFiles/rpg_game_qt.dir/src/player.cpp.o"
+  "CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o"
   "CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o"
   "rpg_game_qt.pdb"

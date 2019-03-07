@@ -57,6 +57,6 @@ add_executable(rpg_game_qt
         src/opponent.cpp
         src/player.cpp
         resources/resfile.qrc
-        )
+        include/locationflyweight.h src/locationflyweight.cpp)
 
 target_link_libraries(rpg_game_qt Qt5::Widgets)

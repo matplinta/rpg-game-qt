@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mateusz/repos/rpg-game-qt/src/item.cpp" "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/item.cpp.o"
   "/home/mateusz/repos/rpg-game-qt/src/loadgamewindow.cpp" "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o"
   "/home/mateusz/repos/rpg-game-qt/src/location.cpp" "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/location.cpp.o"
+  "/home/mateusz/repos/rpg-game-qt/src/locationflyweight.cpp" "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o"
   "/home/mateusz/repos/rpg-game-qt/src/main.cpp" "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/main.cpp.o"
   "/home/mateusz/repos/rpg-game-qt/src/mainwindow.cpp" "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o"
   "/home/mateusz/repos/rpg-game-qt/src/maptable.cpp" "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o"

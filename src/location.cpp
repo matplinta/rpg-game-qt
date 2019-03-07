@@ -103,43 +103,43 @@ LocationHome::LocationHome():Location(0)
 
 
 
-    Location * LocationFlyweight::getLocation(std::string locName)
-    {
-        std::map<std::string, Location*>::iterator findLocation = visitedLocations.find(locName);
-        if(findLocation == visitedLocations.end())
-        {
-            Location* newLocation = LocationFactory::createLocation(locName);
-            this->visitedLocations[locName] = newLocation;
-            return newLocation;
-        }
-        else{
-            //QMessageBox::information(0, "info", "already visited location. You are smart.");
-            return findLocation->second;
-        }
-
-    }
-    LocationFlyweight::~LocationFlyweight()
-    {
-        for(std::map<std::string, Location* >::iterator locat = visitedLocations.begin(); locat != visitedLocations.end(); locat)
-        {
-            if(locat->second)
-            {
-                delete locat->second;
-                locat->second = NULL;
-            }
-        }
-        visitedLocations.clear();
-    }
-    LocationFlyweight& LocationFlyweight::getFlyweight()
-    {
-        static LocationFlyweight locF;
-        return locF;
-    }
-
-const std::map<std::string, Location *> &LocationFlyweight::getVisitedLocations() const {
-    return visitedLocations;
-}
-
-void LocationFlyweight::setVisitedLocations(const std::map<std::string, Location *> &visitedLocations) {
-    LocationFlyweight::visitedLocations = visitedLocations;
-}
+//    Location * LocationFlyweight::getLocation(std::string locName)
+//    {
+//        std::map<std::string, Location*>::iterator findLocation = visitedLocations.find(locName);
+//        if(findLocation == visitedLocations.end())
+//        {
+//            Location* newLocation = LocationFactory::createLocation(locName);
+//            this->visitedLocations[locName] = newLocation;
+//            return newLocation;
+//        }
+//        else{
+//            //QMessageBox::information(0, "info", "already visited location. You are smart.");
+//            return findLocation->second;
+//        }
+//
+//    }
+//    LocationFlyweight::~LocationFlyweight()
+//    {
+//        for(std::map<std::string, Location* >::iterator locat = visitedLocations.begin(); locat != visitedLocations.end(); locat)
+//        {
+//            if(locat->second)
+//            {
+//                delete locat->second;
+//                locat->second = NULL;
+//            }
+//        }
+//        visitedLocations.clear();
+//    }
+//    LocationFlyweight& LocationFlyweight::getFlyweight()
+//    {
+//        static LocationFlyweight locF;
+//        return locF;
+//    }
+//
+//const std::map<std::string, Location *> &LocationFlyweight::getVisitedLocations() const {
+//    return visitedLocations;
+//}
+//
+//void LocationFlyweight::setVisitedLocations(const std::map<std::string, Location *> &visitedLocations) {
+//    LocationFlyweight::visitedLocations = visitedLocations;
+//}

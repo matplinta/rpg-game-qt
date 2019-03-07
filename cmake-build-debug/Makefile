@@ -352,6 +352,33 @@ src/location.cpp.s:
 	$(MAKE) -f CMakeFiles/rpg_game_qt.dir/build.make CMakeFiles/rpg_game_qt.dir/src/location.cpp.s
 .PHONY : src/location.cpp.s
 
+src/locationflyweight.o: src/locationflyweight.cpp.o
+
+.PHONY : src/locationflyweight.o
+
+# target to build an object file
+src/locationflyweight.cpp.o:
+	$(MAKE) -f CMakeFiles/rpg_game_qt.dir/build.make CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o
+.PHONY : src/locationflyweight.cpp.o
+
+src/locationflyweight.i: src/locationflyweight.cpp.i
+
+.PHONY : src/locationflyweight.i
+
+# target to preprocess a source file
+src/locationflyweight.cpp.i:
+	$(MAKE) -f CMakeFiles/rpg_game_qt.dir/build.make CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.i
+.PHONY : src/locationflyweight.cpp.i
+
+src/locationflyweight.s: src/locationflyweight.cpp.s
+
+.PHONY : src/locationflyweight.s
+
+# target to generate assembly for a file
+src/locationflyweight.cpp.s:
+	$(MAKE) -f CMakeFiles/rpg_game_qt.dir/build.make CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.s
+.PHONY : src/locationflyweight.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -548,6 +575,9 @@ help:
 	@echo "... src/location.o"
 	@echo "... src/location.i"
 	@echo "... src/location.s"
+	@echo "... src/locationflyweight.o"
+	@echo "... src/locationflyweight.i"
+	@echo "... src/locationflyweight.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

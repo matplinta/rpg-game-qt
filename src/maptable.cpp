@@ -10,7 +10,7 @@ MapTable::MapTable(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    location = LocationFlyweight::getFlyweight().getLocation(Player::instance()->getCurrentLocation());
+    location = LocationFlyweight::getInstance()->getLocation(Player::instance()->getCurrentLocation());
     mapTableInit(21,37,16);
 
     Player::instance()->setPosition(Player::instance()->getX(),Player::instance()->getY());
@@ -131,7 +131,7 @@ void MapTable::actionHandler(char temp)
     if(temp == 'E' || temp == 'd' || temp == 'c')
     {
         Door *drzwi = dynamic_cast<Door*>(getFollowingActionElement());
-        location = LocationFlyweight::getFlyweight().getLocation(drzwi->getPointingLocation());
+        location = LocationFlyweight::getInstance()->getLocation(drzwi->getPointingLocation());
         Player::instance()->setPosition(drzwi->getWhereX(), drzwi->getWhereY());
 
         mapTableFill(location->getActivMap());
@@ -228,13 +228,10 @@ void MapTable::on_exitButton_clicked()
     reply = QMessageBox::question(this, "Attention", "Are you sure you want to quit? Any unsaved progress will be lost.", QMessageBox::Yes|QMessageBox::No);
     if (reply == QMessageBox::Yes)
     {
+        // Proper cleanup after Player instance and location
         delete Player::instance();
-//        delete location;
-//        delete LocationFlyweight::getFlyweight();
+        delete location;
         parentWidget()->parentWidget()->close();
-
-
-
     }
 }
 

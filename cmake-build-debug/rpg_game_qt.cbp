@@ -172,6 +172,9 @@
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/location.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/locationflyweight.h">
+			<Option target="rpg_game_qt"/>
+		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/mainwindow.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
@@ -230,6 +233,9 @@
 			<Option target="rpg_game_qt"/>
 		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/location.cpp">
+			<Option target="rpg_game_qt"/>
+		</Unit>
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/locationflyweight.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/main.cpp">

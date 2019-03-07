@@ -278,9 +278,22 @@ CMakeFiles/rpg_game_qt.dir/src/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/player.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/player.cpp -o CMakeFiles/rpg_game_qt.dir/src/player.cpp.s
 
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: ../src/locationflyweight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/locationflyweight.cpp
+
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/locationflyweight.cpp > CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.i
+
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/locationflyweight.cpp -o CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.s
+
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: rpg_game_qt_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/mocs_compilation.cpp
 
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.i: cmake_force
@@ -293,7 +306,7 @@ CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.s: cmake_for
 
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o: rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp
 
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.i: cmake_force
@@ -318,6 +331,7 @@ rpg_game_qt_OBJECTS = \
 "CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o" \
 "CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o" \
 "CMakeFiles/rpg_game_qt.dir/src/player.cpp.o" \
+"CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o" \
 "CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o"
 
@@ -336,6 +350,7 @@ rpg_game_qt: CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/src/player.cpp.o
+rpg_game_qt: CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/build.make
@@ -343,7 +358,7 @@ rpg_game_qt: /usr/lib/libQt5Widgets.so.5.12.1
 rpg_game_qt: /usr/lib/libQt5Gui.so.5.12.1
 rpg_game_qt: /usr/lib/libQt5Core.so.5.12.1
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable rpg_game_qt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable rpg_game_qt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rpg_game_qt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

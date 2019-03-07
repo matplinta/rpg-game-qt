@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include "location.h"
+#include "locationflyweight.h"
 #include "player.h"
 #include "inventorywindow.h"
 #include "battlewindow.h"

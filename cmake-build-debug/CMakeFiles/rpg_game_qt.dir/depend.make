@@ -4,6 +4,7 @@
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o: rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp
 
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: ../include/inventory.h
+CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: ../include/location.h
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: ../include/player.h
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: rpg_game_qt_autogen/6YEA5652QU/moc_battlewindow.cpp
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: rpg_game_qt_autogen/6YEA5652QU/moc_entry.cpp
@@ -23,6 +24,7 @@ CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: ../includ
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: ../include/item.h
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: ../include/loadgamewindow.h
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: ../include/location.h
+CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: ../include/locationflyweight.h
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: ../include/mainwindow.h
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: ../include/maps.h
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: ../include/maptable.h
@@ -330,6 +332,7 @@ CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.o: rpg_game_qt_autogen/include/u
 
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/entry.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/inventory.h
+CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/location.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/player.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/battle.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/battlewindow.h
@@ -339,6 +342,7 @@ CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/interpreter.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/inventorywindow.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/item.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/location.h
+CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/locationflyweight.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/maps.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/maptable.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../include/opponent.h
@@ -779,6 +783,7 @@ CMakeFiles/rpg_game_qt.dir/src/item.cpp.o: ../src/item.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/inventory.h
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/loadgamewindow.h
+CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/location.h
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/player.h
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/battle.h
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/battlewindow.h
@@ -788,6 +793,7 @@ CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/interpreter.h
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/inventorywindow.h
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/item.h
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/location.h
+CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/locationflyweight.h
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/maps.h
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/maptable.h
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../include/opponent.h
@@ -1068,7 +1074,20 @@ CMakeFiles/rpg_game_qt.dir/src/location.cpp.o: /usr/include/qt/QtWidgets/qtwidge
 CMakeFiles/rpg_game_qt.dir/src/location.cpp.o: /usr/include/qt/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/rpg_game_qt.dir/src/location.cpp.o: /usr/include/qt/QtWidgets/qwidget.h
 
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: ../include/location.h
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: ../include/locationflyweight.h
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: ../include/door.h
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: ../include/element.h
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: ../include/item.h
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: ../include/maps.h
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: ../include/opponent.h
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: ../include/player.h
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: ../include/subtitle.h
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: ../include/villager.h
+CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: ../src/locationflyweight.cpp
+
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../include/inventory.h
+CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../include/location.h
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../include/mainwindow.h
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../include/player.h
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../include/battle.h
@@ -1081,6 +1100,7 @@ CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../include/inventorywindow.h
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../include/item.h
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../include/loadgamewindow.h
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../include/location.h
+CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../include/locationflyweight.h
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../include/maps.h
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../include/maptable.h
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../include/newgamewindow.h
@@ -1234,6 +1254,7 @@ CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: /usr/include/qt/QtWidgets/qtwidgetsgl
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: /usr/include/qt/QtWidgets/qwidget.h
 
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../include/inventory.h
+CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../include/location.h
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../include/mainwindow.h
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../include/player.h
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../include/battle.h
@@ -1246,6 +1267,7 @@ CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../include/inventorywindow.h
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../include/item.h
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../include/loadgamewindow.h
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../include/location.h
+CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../include/locationflyweight.h
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../include/maps.h
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../include/maptable.h
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../include/newgamewindow.h
@@ -1413,6 +1435,7 @@ CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: /usr/include/qt/QtWidgets/qwidg
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: rpg_game_qt_autogen/include/ui_mainwindow.h
 
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../include/inventory.h
+CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../include/location.h
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../include/mainwindow.h
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../include/maptable.h
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../include/player.h
@@ -1426,6 +1449,7 @@ CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../include/inventorywindow.h
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../include/item.h
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../include/loadgamewindow.h
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../include/location.h
+CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../include/locationflyweight.h
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../include/maps.h
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../include/maptable.h
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../include/newgamewindow.h
@@ -1603,6 +1627,7 @@ CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: /usr/include/qt/QtWidgets/qwidget
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: rpg_game_qt_autogen/include/ui_maptable.h
 
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../include/inventory.h
+CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../include/location.h
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../include/newgamewindow.h
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../include/player.h
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../include/battle.h
@@ -1614,6 +1639,7 @@ CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../include/interpreter.h
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../include/inventorywindow.h
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../include/item.h
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../include/location.h
+CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../include/locationflyweight.h
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../include/maps.h
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../include/maptable.h
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../include/opponent.h
