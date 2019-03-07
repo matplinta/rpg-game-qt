@@ -111,13 +111,13 @@ void BattleWindow::on_escapeButton_clicked()
     int random = Element::genRandom(0,5);
     if(random)
     {
-        player->setHealth(player->getHealth() - (opponent->getStrength() - player->getDefence()));
+        Battle::attack(opponent, player);
         player->checkHealth();
         opponent->checkHealth();
         showStatus();
         std::string info;
         info.append("You failed to escape! " + opponent->getName() + " attacked " + player->getName() + ". You lost " +
-                    std::to_string(opponent->getStrength() - player->getDefence()) + " HP");
+                    std::to_string(Battle::getDamage(opponent, player)) + " HP");
         ui->statusLabel->setText(QString::fromStdString(info));
         if(player->getHealth() == 0)
         {
