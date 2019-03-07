@@ -103,6 +103,7 @@ char MapTable::getFollowingAction()
     else if(orientation == "Left")  {x--;}
     else if(orientation == "Right") {x++;}
     char temp = location->getActivMap()->getCell(y, x);
+    std::cout<<x<<", "<<y<<std::endl;
     return temp;
 }
 bool MapTable::checkFollowingAction()
@@ -123,7 +124,6 @@ Element *MapTable::getFollowingActionElement()
     else if(orientation == "Down")  {y++;}
     else if(orientation == "Left")  {x--;}
     else if(orientation == "Right") {x++;}
-
     return location->getElement(x,y);
 }
 void MapTable::actionHandler(char temp)
@@ -131,6 +131,7 @@ void MapTable::actionHandler(char temp)
     if(temp == 'E' || temp == 'd' || temp == 'c')
     {
         Door *drzwi = dynamic_cast<Door*>(getFollowingActionElement());
+
         location = LocationFlyweight::getInstance()->getLocation(drzwi->getPointingLocation());
         Player::instance()->setPosition(drzwi->getWhereX(), drzwi->getWhereY());
 
@@ -166,7 +167,7 @@ void MapTable::actionHandler(char temp)
 
     else
     {
-        QMessageBox::information(0, "Dialog", "Unknown interaction.a");
+        QMessageBox::information(0, "Dialog", "Unknown interaction");
     }
 
 }
@@ -213,6 +214,10 @@ void MapTable::keyPressEvent(QKeyEvent *event)
             actionHandler(getFollowingAction());
         }
     }
+    else if(event->key() == Qt::Key_E)
+    {
+        getFollowingAction();
+    }
 }
 
 
@@ -221,6 +226,10 @@ MapTable::~MapTable()
     delete ui;
 }
 
+
+void MapTable::on_controlsButton_clicked(){
+    QMessageBox::information(0, "Controls", "Move:\tWSAD\nInteract:\tR");
+}
 
 void MapTable::on_exitButton_clicked()
 {

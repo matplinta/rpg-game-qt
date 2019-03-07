@@ -432,6 +432,7 @@ CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: /usr/include/qt/QtCore/qvariant.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: /usr/include/qt/QtCore/qvarlengtharray.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: /usr/include/qt/QtCore/qvector.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: /usr/include/qt/QtCore/qversiontagging.h
+CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: /usr/include/qt/QtGui/QKeyEvent
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: /usr/include/qt/QtGui/qbrush.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: /usr/include/qt/QtGui/qcolor.h
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: /usr/include/qt/QtGui/qcursor.h
@@ -1587,6 +1588,7 @@ CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: /usr/include/qt/QtWidgets/QMainWi
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: /usr/include/qt/QtWidgets/QMessageBox
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: /usr/include/qt/QtWidgets/QPushButton
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: /usr/include/qt/QtWidgets/QTableWidget
+CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: /usr/include/qt/QtWidgets/QVBoxLayout
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: /usr/include/qt/QtWidgets/QWidget
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: /usr/include/qt/QtWidgets/qabstractbutton.h
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: /usr/include/qt/QtWidgets/qabstractitemdelegate.h
@@ -1730,6 +1732,7 @@ CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: /usr/include/qt/QtCore/qvarl
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: /usr/include/qt/QtCore/qvector.h
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: /usr/include/qt/QtCore/qversiontagging.h
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: /usr/include/qt/QtGui/QIcon
+CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: /usr/include/qt/QtGui/QKeyEvent
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: /usr/include/qt/QtGui/qbrush.h
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: /usr/include/qt/QtGui/qcolor.h
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: /usr/include/qt/QtGui/qcursor.h

@@ -5,8 +5,8 @@ hhhhhhhh                h   ggggghhhh
 t                                hhhh
 tt                                   
                  ####   /---\    hhhh
-ppppppp          ####   bdbbb    hhhh
-wwwwwwwppp       #c##            hhhh
+ppppppp          ####   bbbbb    hhhh
+wwwwwwwppp       ####            hhhh
 wwwwwwwwwwwh              hhhhhhhhhhh
 wwwwwwwwwwwww                    hhhh
           www                     hhh

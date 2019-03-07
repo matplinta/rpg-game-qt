@@ -1,19 +1,28 @@
 #include "include/entry.h"
 #include "ui_entry.h"
 #include <QWidget>
-entry::entry(QWidget *parent) :
+#include <QKeyEvent>
+
+Entry::Entry(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::entry)
+    ui(new Ui::Entry)
 {
     ui->setupUi(this);
+    ui->graphicsView->setFocus();
 }
 
-entry::~entry()
+Entry::~Entry()
 {
     delete ui;
 }
-
-void entry::on_nextButton_clicked()
+void Entry::keyPressEvent(QKeyEvent *event)
+{
+    if(event->key() == Qt::Key_Return)
+    {
+        on_nextButton_clicked();
+    }
+}
+void Entry::on_nextButton_clicked()
 {
 
     mapWindow = new MapTable(this);

@@ -45,13 +45,13 @@ public:
         else if(input == '\\')
             return "dashRight";
         else if(input == 'm')
-            return "villagerMale";
+            return "villagerMale";  //resident
         else if(input == 'f')
-            return "villagerFemale";
+            return "villagerFemale";//resident
         else if(input == '-')
             return "roof";
         else if(input == 'o')
-            return "oponent";
+            return "oponent";      //przeciwnik stworek
         else if(input == 'd')
             return "door";         //moge wchodzic door 'd'
         else return "default";

@@ -4,23 +4,25 @@
 #include <QWidget>
 
 namespace Ui {
-class entry;
+class Entry;
 }
 
-class entry : public QWidget
+class Entry : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit entry(QWidget *parent = 0);
-    ~entry();
+    explicit Entry(QWidget *parent = 0);
+    ~Entry();
 
 private slots:
     void on_nextButton_clicked();
 
 private:
-    Ui::entry *ui;
+    Ui::Entry *ui;
     MapTable *mapWindow;
+protected:
+    void keyPressEvent(QKeyEvent *);
 };
 
 #endif // ENTRY_H

@@ -116,7 +116,7 @@ void BattleWindow::on_escapeButton_clicked()
         opponent->checkHealth();
         showStatus();
         std::string info;
-        info.append("You failed to escape! " + opponent->getName() + " attacked " + player->getName() + ". You lost " +
+        info.append("You failed to escape! " + opponent->getName() + " attacked " + player->getName() + ".\nwwYou lost " +
                     std::to_string(Battle::getDamage(opponent, player)) + " HP");
         ui->statusLabel->setText(QString::fromStdString(info));
         if(player->getHealth() == 0)

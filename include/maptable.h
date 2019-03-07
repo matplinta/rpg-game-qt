@@ -42,6 +42,8 @@ private slots:
 
     void on_saveButton_clicked();
 
+    void on_controlsButton_clicked();
+
 signals:
 
     void sendPlayer(Player*);

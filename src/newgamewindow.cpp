@@ -1,6 +1,7 @@
 #include "include/newgamewindow.h"
 #include "ui_newgamewindow.h"
 #include <QMessageBox>
+#include <QKeyEvent>
 
 NewGameWindow::NewGameWindow(QWidget *parent) :
     QWidget(parent),
@@ -13,6 +14,13 @@ NewGameWindow::~NewGameWindow()
 {
     delete ui;
 }
+void NewGameWindow::keyPressEvent(QKeyEvent *event)
+{
+    if(event->key() == Qt::Key_Return)
+    {
+        on_startButton_clicked();
+    }
+}
 
 void NewGameWindow::on_startButton_clicked()
 {
@@ -20,7 +28,7 @@ void NewGameWindow::on_startButton_clicked()
     if(name.isEmpty())
     {
         QMessageBox msgBox;
-        msgBox.setWindowTitle("Message");
+        msgBox.setWindowTitle("Attention");
         msgBox.setText("You need to enter your name!");
         msgBox.exec();
     }
@@ -33,8 +41,8 @@ void NewGameWindow::on_startButton_clicked()
 
         // LocationFlyweight instance proper initialization
         LocationFlyweight::setInstance();
-        Entry = new entry(this);
-        Entry->show();
+        entry = new Entry(this);
+        entry->show();
     }
 
 }

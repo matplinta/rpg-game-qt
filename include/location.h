@@ -10,7 +10,7 @@
 #include "player.h"
 
 
-enum LocationEnum {Home, ShadowHills0, ShadowHills1, ShadowHills2, House0, House1, House2, HauntedHouse0, HauntedHouse1, HauntedHouse2, HauntedHouse3, DevilsDen };
+enum LocationEnum {Home, ShadowHills0, ShadowHills1, Cave, House0, House1, House2, HauntedHouse0, HauntedHouse1, HauntedHouse2, HauntedHouse3, DevilsDen };
 
 class Location
 {
@@ -60,7 +60,11 @@ class LocationHauntedHouse0 : public Location
 {
 public:
     LocationHauntedHouse0();
-
+};
+class LocationCave : public Location
+{
+public:
+    LocationCave();
 };
 
 class LocationFactory
@@ -84,6 +88,10 @@ public:
         if(locationType == "HauntedHouse0")
         {
             return new LocationHauntedHouse0;
+        }
+        if(locationType == "Cave")
+        {
+            return new LocationCave;
         }
         return NULL;
     }

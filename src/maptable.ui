@@ -88,42 +88,6 @@
     <string notr="true">background-color: rgb(1, 1, 27);</string>
    </property>
   </widget>
-  <widget class="QWidget" name="layoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>380</y>
-     <width>581</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
-    <item>
-     <widget class="QPushButton" name="inventoryButton">
-      <property name="text">
-       <string>Show Inventory</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="saveButton">
-      <property name="text">
-       <string>Save</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="exitButton">
-      <property name="text">
-       <string>Exit</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-   <zorder>exitButton</zorder>
-   <zorder>saveButton</zorder>
-   <zorder>inventoryButton</zorder>
-  </widget>
   <widget class="QGraphicsView" name="graphicsView_2">
    <property name="geometry">
     <rect>
@@ -137,10 +101,55 @@
     <string notr="true">background-color: rgb(0, 0, 0, 1);</string>
    </property>
   </widget>
-  <zorder>graphicsView</zorder>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>379</y>
+     <width>581</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="inventoryButton">
+        <property name="text">
+         <string>Show Inventory</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="saveButton">
+        <property name="text">
+         <string>Save</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="exitButton">
+        <property name="text">
+         <string>Exit</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="controlsButton">
+      <property name="text">
+       <string>Controls</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <!--<zorder>graphicsView</zorder>-->
   <zorder>tableWidget</zorder>
-  <zorder>layoutWidget</zorder>
-  <zorder>graphicsView_2</zorder>
+  <!--<zorder>layoutWidget</zorder>-->
+  <!--<zorder>graphicsView_2</zorder>-->
+  <!--<zorder>controlsButton</zorder>-->
  </widget>
  <resources>
   <include location="../resources/resfile.qrc"/>

@@ -17,6 +17,7 @@
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QTableWidget>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -26,12 +27,14 @@ class Ui_MapTable
 public:
     QTableWidget *tableWidget;
     QGraphicsView *graphicsView;
-    QWidget *layoutWidget;
+    QGraphicsView *graphicsView_2;
+    QWidget *widget;
+    QVBoxLayout *verticalLayout;
     QHBoxLayout *horizontalLayout;
     QPushButton *inventoryButton;
     QPushButton *saveButton;
     QPushButton *exitButton;
-    QGraphicsView *graphicsView_2;
+    QPushButton *controlsButton;
 
     void setupUi(QWidget *MapTable)
     {
@@ -64,38 +67,42 @@ public:
         graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
         graphicsView->setGeometry(QRect(0, 0, 640, 460));
         graphicsView->setStyleSheet(QString::fromUtf8("background-color: rgb(1, 1, 27);"));
-        layoutWidget = new QWidget(MapTable);
-        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(30, 380, 581, 31));
-        horizontalLayout = new QHBoxLayout(layoutWidget);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        inventoryButton = new QPushButton(layoutWidget);
-        inventoryButton->setObjectName(QString::fromUtf8("inventoryButton"));
-
-        horizontalLayout->addWidget(inventoryButton);
-
-        saveButton = new QPushButton(layoutWidget);
-        saveButton->setObjectName(QString::fromUtf8("saveButton"));
-
-        horizontalLayout->addWidget(saveButton);
-
-        exitButton = new QPushButton(layoutWidget);
-        exitButton->setObjectName(QString::fromUtf8("exitButton"));
-
-        horizontalLayout->addWidget(exitButton);
-
-        exitButton->raise();
-        saveButton->raise();
-        inventoryButton->raise();
         graphicsView_2 = new QGraphicsView(MapTable);
         graphicsView_2->setObjectName(QString::fromUtf8("graphicsView_2"));
         graphicsView_2->setGeometry(QRect(23, 23, 594, 338));
         graphicsView_2->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0, 1);"));
-        graphicsView->raise();
+        widget = new QWidget(MapTable);
+        widget->setObjectName(QString::fromUtf8("widget"));
+        widget->setGeometry(QRect(30, 379, 581, 61));
+        verticalLayout = new QVBoxLayout(widget);
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout = new QHBoxLayout();
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        inventoryButton = new QPushButton(widget);
+        inventoryButton->setObjectName(QString::fromUtf8("inventoryButton"));
+
+        horizontalLayout->addWidget(inventoryButton);
+
+        saveButton = new QPushButton(widget);
+        saveButton->setObjectName(QString::fromUtf8("saveButton"));
+
+        horizontalLayout->addWidget(saveButton);
+
+        exitButton = new QPushButton(widget);
+        exitButton->setObjectName(QString::fromUtf8("exitButton"));
+
+        horizontalLayout->addWidget(exitButton);
+
+
+        verticalLayout->addLayout(horizontalLayout);
+
+        controlsButton = new QPushButton(widget);
+        controlsButton->setObjectName(QString::fromUtf8("controlsButton"));
+
+        verticalLayout->addWidget(controlsButton);
+
         tableWidget->raise();
-        layoutWidget->raise();
-        graphicsView_2->raise();
 
         retranslateUi(MapTable);
 
@@ -108,6 +115,7 @@ public:
         inventoryButton->setText(QApplication::translate("MapTable", "Show Inventory", nullptr));
         saveButton->setText(QApplication::translate("MapTable", "Save", nullptr));
         exitButton->setText(QApplication::translate("MapTable", "Exit", nullptr));
+        controlsButton->setText(QApplication::translate("MapTable", "Controls", nullptr));
     } // retranslateUi
 
 };

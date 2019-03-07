@@ -433,6 +433,7 @@ CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o
  /usr/include/qt/QtCore/qvarlengtharray.h
  /usr/include/qt/QtCore/qvector.h
  /usr/include/qt/QtCore/qversiontagging.h
+ /usr/include/qt/QtGui/QKeyEvent
  /usr/include/qt/QtGui/qbrush.h
  /usr/include/qt/QtGui/qcolor.h
  /usr/include/qt/QtGui/qcursor.h
@@ -1588,6 +1589,7 @@ CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o
  /usr/include/qt/QtWidgets/QMessageBox
  /usr/include/qt/QtWidgets/QPushButton
  /usr/include/qt/QtWidgets/QTableWidget
+ /usr/include/qt/QtWidgets/QVBoxLayout
  /usr/include/qt/QtWidgets/QWidget
  /usr/include/qt/QtWidgets/qabstractbutton.h
  /usr/include/qt/QtWidgets/qabstractitemdelegate.h
@@ -1731,6 +1733,7 @@ CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o
  /usr/include/qt/QtCore/qvector.h
  /usr/include/qt/QtCore/qversiontagging.h
  /usr/include/qt/QtGui/QIcon
+ /usr/include/qt/QtGui/QKeyEvent
  /usr/include/qt/QtGui/qbrush.h
  /usr/include/qt/QtGui/qcolor.h
  /usr/include/qt/QtGui/qcursor.h

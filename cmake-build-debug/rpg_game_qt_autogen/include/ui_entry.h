@@ -18,7 +18,7 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_entry
+class Ui_Entry
 {
 public:
     QGraphicsView *graphicsView;
@@ -51,16 +51,16 @@ public:
 
     void retranslateUi(QWidget *entry)
     {
-        entry->setWindowTitle(QApplication::translate("entry", "Form", nullptr));
-        nextButton->setText(QApplication::translate("entry", "Next", nullptr));
-        label->setText(QApplication::translate("entry", "            Did you hear about that haunted house on Shadow Hills?\n"
+        entry->setWindowTitle(QApplication::translate("Entry", "Form", nullptr));
+        nextButton->setText(QApplication::translate("Entry", "Next", nullptr));
+        label->setText(QApplication::translate("Entry", "            Did you hear about that haunted house on Shadow Hills?\n"
 "            I bet it's just a mit, let's go check it out! ", nullptr));
     } // retranslateUi
 
 };
 
 namespace Ui {
-    class entry: public Ui_entry {};
+    class Entry: public Ui_Entry {};
 } // namespace Ui
 
 QT_END_NAMESPACE

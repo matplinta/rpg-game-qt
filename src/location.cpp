@@ -80,13 +80,14 @@ LocationHome::LocationHome():Location(0)
 
     }
 
-    LocationShadowHills0::LocationShadowHills0():Location(1, true)
+    LocationShadowHills0::LocationShadowHills0():Location(1)
     {
         addElement(new Item(8,2, "*", "POTION", "Replenishes player's health", 100, 0,0,0,0,0));
         addElement(new Villager(5,5, "f","lol", 2));
         addElement(new Villager(5, 6, "m","lol", 2));
         addElement(new Door(0,6,"E","ShadowHills1", 36, 6));
         addElement(new Door(25,7,"Home", 28, 18));
+        addElement(new Door(18, 8, "c","Cave", 19, 19));
 
     }
     LocationShadowHills1::LocationShadowHills1():Location(2)
@@ -95,10 +96,16 @@ LocationHome::LocationHome():Location(0)
         addElement(new Door(0,6,"E","HauntedHouse0", 36, 18));
 
     }
-    LocationHauntedHouse0::LocationHauntedHouse0():Location(3)
+    LocationHauntedHouse0::LocationHauntedHouse0():Location(4, true)
     {
+        addElement(new Door(19,20,"c","ShadowHills0", 0, 6));
         addElement(new Opponent(27,7,"o","Ghost", 5));
     }
+
+    LocationCave::LocationCave():Location(3, true) {
+        addElement(new Door(19,19,"c","ShadowHills0", 18, 8));
+        addElement(new Opponent(27,7,"o","Ghost", 5));
+}
 
 
 

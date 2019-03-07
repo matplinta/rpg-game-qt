@@ -23,7 +23,9 @@ private slots:
 
 private:
     Ui::NewGameWindow *ui;
-    entry *Entry;
+    Entry *entry;
+protected:
+    void keyPressEvent(QKeyEvent *);
 };
 
 #endif // NEWGAMEWINDOW_H

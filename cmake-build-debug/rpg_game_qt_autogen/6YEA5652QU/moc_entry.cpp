@@ -20,27 +20,27 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_entry_t {
+struct qt_meta_stringdata_Entry_t {
     QByteArrayData data[3];
     char stringdata0[29];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_entry_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_Entry_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_entry_t qt_meta_stringdata_entry = {
+static const qt_meta_stringdata_Entry_t qt_meta_stringdata_Entry = {
     {
-QT_MOC_LITERAL(0, 0, 5), // "entry"
+QT_MOC_LITERAL(0, 0, 5), // "Entry"
 QT_MOC_LITERAL(1, 6, 21), // "on_nextButton_clicked"
 QT_MOC_LITERAL(2, 28, 0) // ""
 
     },
-    "entry\0on_nextButton_clicked\0"
+    "Entry\0on_nextButton_clicked\0"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_entry[] = {
+static const uint qt_meta_data_Entry[] = {
 
  // content:
        8,       // revision
@@ -62,10 +62,10 @@ static const uint qt_meta_data_entry[] = {
        0        // eod
 };
 
-void entry::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void Entry::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<entry *>(_o);
+        auto *_t = static_cast<Entry *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->on_nextButton_clicked(); break;
@@ -75,30 +75,30 @@ void entry::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void 
     Q_UNUSED(_a);
 }
 
-QT_INIT_METAOBJECT const QMetaObject entry::staticMetaObject = { {
+QT_INIT_METAOBJECT const QMetaObject Entry::staticMetaObject = { {
     &QWidget::staticMetaObject,
-    qt_meta_stringdata_entry.data,
-    qt_meta_data_entry,
+    qt_meta_stringdata_Entry.data,
+    qt_meta_data_Entry,
     qt_static_metacall,
     nullptr,
     nullptr
 } };
 
 
-const QMetaObject *entry::metaObject() const
+const QMetaObject *Entry::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *entry::qt_metacast(const char *_clname)
+void *Entry::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_entry.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_Entry.stringdata0))
         return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
 
-int entry::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int Entry::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
     if (_id < 0)
