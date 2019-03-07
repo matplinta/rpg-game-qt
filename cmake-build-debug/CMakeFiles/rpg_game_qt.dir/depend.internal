@@ -14,6 +14,7 @@ CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o
  /home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_maptable.cpp
  /home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_newgamewindow.cpp
  /home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/mocs_compilation.cpp
+ /home/mateusz/repos/rpg-game-qt/include/battle.h
  /home/mateusz/repos/rpg-game-qt/include/battlewindow.h
  /home/mateusz/repos/rpg-game-qt/include/door.h
  /home/mateusz/repos/rpg-game-qt/include/element.h
@@ -27,7 +28,7 @@ CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o
  /home/mateusz/repos/rpg-game-qt/include/maps.h
  /home/mateusz/repos/rpg-game-qt/include/maptable.h
  /home/mateusz/repos/rpg-game-qt/include/newgamewindow.h
- /home/mateusz/repos/rpg-game-qt/include/oponent.h
+ /home/mateusz/repos/rpg-game-qt/include/opponent.h
  /home/mateusz/repos/rpg-game-qt/include/player.h
  /home/mateusz/repos/rpg-game-qt/include/save.h
  /home/mateusz/repos/rpg-game-qt/include/subtitle.h
@@ -171,10 +172,11 @@ CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.o
  ..//include/battlewindow.h
  ..//include/inventory.h
  ..//include/player.h
+ ../include/battle.h
  ../include/element.h
  ../include/inventorywindow.h
  ../include/item.h
- ../include/oponent.h
+ ../include/opponent.h
  ../include/player.h
  /home/mateusz/repos/rpg-game-qt/src/battlewindow.cpp
  /usr/include/qt/QtCore/QVariant
@@ -330,6 +332,7 @@ CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o
  ..//include/entry.h
  ..//include/inventory.h
  ..//include/player.h
+ ../include/battle.h
  ../include/battlewindow.h
  ../include/door.h
  ../include/element.h
@@ -339,7 +342,7 @@ CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o
  ../include/location.h
  ../include/maps.h
  ../include/maptable.h
- ../include/oponent.h
+ ../include/opponent.h
  ../include/player.h
  ../include/save.h
  ../include/subtitle.h
@@ -778,6 +781,7 @@ CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o
  ..//include/inventory.h
  ..//include/loadgamewindow.h
  ..//include/player.h
+ ../include/battle.h
  ../include/battlewindow.h
  ../include/door.h
  ../include/element.h
@@ -787,7 +791,7 @@ CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o
  ../include/location.h
  ../include/maps.h
  ../include/maptable.h
- ../include/oponent.h
+ ../include/opponent.h
  ../include/player.h
  ../include/save.h
  ../include/subtitle.h
@@ -954,7 +958,7 @@ CMakeFiles/rpg_game_qt.dir/src/location.cpp.o
  ../include/element.h
  ../include/item.h
  ../include/maps.h
- ../include/oponent.h
+ ../include/opponent.h
  ../include/player.h
  ../include/subtitle.h
  ../include/villager.h
@@ -1068,6 +1072,7 @@ CMakeFiles/rpg_game_qt.dir/src/main.cpp.o
  ..//include/inventory.h
  ..//include/mainwindow.h
  ..//include/player.h
+ ../include/battle.h
  ../include/battlewindow.h
  ../include/door.h
  ../include/element.h
@@ -1080,7 +1085,7 @@ CMakeFiles/rpg_game_qt.dir/src/main.cpp.o
  ../include/maps.h
  ../include/maptable.h
  ../include/newgamewindow.h
- ../include/oponent.h
+ ../include/opponent.h
  ../include/player.h
  ../include/save.h
  ../include/subtitle.h
@@ -1232,6 +1237,7 @@ CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o
  ..//include/inventory.h
  ..//include/mainwindow.h
  ..//include/player.h
+ ../include/battle.h
  ../include/battlewindow.h
  ../include/door.h
  ../include/element.h
@@ -1244,7 +1250,7 @@ CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o
  ../include/maps.h
  ../include/maptable.h
  ../include/newgamewindow.h
- ../include/oponent.h
+ ../include/opponent.h
  ../include/player.h
  ../include/save.h
  ../include/subtitle.h
@@ -1411,6 +1417,7 @@ CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o
  ..//include/mainwindow.h
  ..//include/maptable.h
  ..//include/player.h
+ ../include/battle.h
  ../include/battlewindow.h
  ../include/door.h
  ../include/element.h
@@ -1423,7 +1430,7 @@ CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o
  ../include/maps.h
  ../include/maptable.h
  ../include/newgamewindow.h
- ../include/oponent.h
+ ../include/opponent.h
  ../include/player.h
  ../include/save.h
  ../include/subtitle.h
@@ -1599,6 +1606,7 @@ CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o
  ..//include/inventory.h
  ..//include/newgamewindow.h
  ..//include/player.h
+ ../include/battle.h
  ../include/battlewindow.h
  ../include/door.h
  ../include/element.h
@@ -1609,7 +1617,7 @@ CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o
  ../include/location.h
  ../include/maps.h
  ../include/maptable.h
- ../include/oponent.h
+ ../include/opponent.h
  ../include/player.h
  ../include/save.h
  ../include/subtitle.h
@@ -1774,11 +1782,11 @@ CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h
  /usr/include/qt/QtWidgets/qwidget.h
  rpg_game_qt_autogen/include/ui_newgamewindow.h
-CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.o
- ..//include/oponent.h
+CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o
+ ..//include/opponent.h
  ../include/element.h
  ../include/item.h
- /home/mateusz/repos/rpg-game-qt/src/oponent.cpp
+ /home/mateusz/repos/rpg-game-qt/src/opponent.cpp
 CMakeFiles/rpg_game_qt.dir/src/player.cpp.o
  ..//include/player.h
  ../include/element.h

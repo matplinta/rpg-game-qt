@@ -148,14 +148,14 @@ void MapTable::actionHandler(char temp)
     }
     else if(temp == 'o')
     {
-        Oponent *oponent = dynamic_cast<Oponent*>(getFollowingActionElement());
+        Opponent *opponent = dynamic_cast<Opponent*>(getFollowingActionElement());
         battleWindow = new BattleWindow(this);
-        QObject::connect(this, SIGNAL(sendBattleInfo(Player*, Oponent *)),
-                        battleWindow, SLOT(receiveBattleInfo(Player*, Oponent *))
+        QObject::connect(this, SIGNAL(sendBattleInfo(Player*, Opponent *)),
+                        battleWindow, SLOT(receiveBattleInfo(Player*, Opponent *))
                         );
-        emit sendBattleInfo(Player::instance(), oponent);
+        emit sendBattleInfo(Player::instance(), opponent);
         battleWindow->show();
-        location->deleteElement(oponent->getX(), oponent->getY());
+        location->deleteElement(opponent->getX(), opponent->getY());
         mapPlayerUpdate();
     }
     else if(temp == 'm' || temp == 'f')
@@ -228,7 +228,13 @@ void MapTable::on_exitButton_clicked()
     reply = QMessageBox::question(this, "Attention", "Are you sure you want to quit? Any unsaved progress will be lost.", QMessageBox::Yes|QMessageBox::No);
     if (reply == QMessageBox::Yes)
     {
+        delete Player::instance();
+//        delete location;
+//        delete LocationFlyweight::getFlyweight();
         parentWidget()->parentWidget()->close();
+
+
+
     }
 }
 

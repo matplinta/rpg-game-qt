@@ -20,7 +20,6 @@ add_executable(rpg_game_qt
         include/boss.h
         include/door.h
         include/element.h
-        include/gameprocess.h
         include/entry.h
         include/interpreter.h
         include/inventory.h
@@ -28,11 +27,10 @@ add_executable(rpg_game_qt
         include/item.h
         include/keypresshandler.h
         include/loadgamewindow.h
-        include/mapmotionhandler.h
         include/maps.h
         include/maptable.h
         include/newgamewindow.h
-        include/oponent.h
+        include/opponent.h
         include/save.h
         include/subtitle.h
         include/player.h
@@ -56,7 +54,7 @@ add_executable(rpg_game_qt
         src/maptable.ui
         src/newgamewindow.cpp
         src/newgamewindow.ui
-        src/oponent.cpp
+        src/opponent.cpp
         src/player.cpp
         resources/resfile.qrc
         )

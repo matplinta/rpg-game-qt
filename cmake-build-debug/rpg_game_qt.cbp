@@ -151,9 +151,6 @@
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/entry.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/gameprocess.h">
-			<Option target="rpg_game_qt"/>
-		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/interpreter.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
@@ -178,9 +175,6 @@
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/mainwindow.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/mapmotionhandler.h">
-			<Option target="rpg_game_qt"/>
-		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/maps.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
@@ -190,7 +184,7 @@
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/newgamewindow.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/oponent.h">
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/opponent.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/player.h">
@@ -259,7 +253,7 @@
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/newgamewindow.ui">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/oponent.cpp">
+		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/opponent.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
 		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/player.cpp">

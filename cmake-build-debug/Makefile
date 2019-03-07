@@ -460,32 +460,32 @@ src/newgamewindow.cpp.s:
 	$(MAKE) -f CMakeFiles/rpg_game_qt.dir/build.make CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.s
 .PHONY : src/newgamewindow.cpp.s
 
-src/oponent.o: src/oponent.cpp.o
+src/opponent.o: src/opponent.cpp.o
 
-.PHONY : src/oponent.o
+.PHONY : src/opponent.o
 
 # target to build an object file
-src/oponent.cpp.o:
-	$(MAKE) -f CMakeFiles/rpg_game_qt.dir/build.make CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.o
-.PHONY : src/oponent.cpp.o
+src/opponent.cpp.o:
+	$(MAKE) -f CMakeFiles/rpg_game_qt.dir/build.make CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o
+.PHONY : src/opponent.cpp.o
 
-src/oponent.i: src/oponent.cpp.i
+src/opponent.i: src/opponent.cpp.i
 
-.PHONY : src/oponent.i
+.PHONY : src/opponent.i
 
 # target to preprocess a source file
-src/oponent.cpp.i:
-	$(MAKE) -f CMakeFiles/rpg_game_qt.dir/build.make CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.i
-.PHONY : src/oponent.cpp.i
+src/opponent.cpp.i:
+	$(MAKE) -f CMakeFiles/rpg_game_qt.dir/build.make CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.i
+.PHONY : src/opponent.cpp.i
 
-src/oponent.s: src/oponent.cpp.s
+src/opponent.s: src/opponent.cpp.s
 
-.PHONY : src/oponent.s
+.PHONY : src/opponent.s
 
 # target to generate assembly for a file
-src/oponent.cpp.s:
-	$(MAKE) -f CMakeFiles/rpg_game_qt.dir/build.make CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.s
-.PHONY : src/oponent.cpp.s
+src/opponent.cpp.s:
+	$(MAKE) -f CMakeFiles/rpg_game_qt.dir/build.make CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.s
+.PHONY : src/opponent.cpp.s
 
 src/player.o: src/player.cpp.o
 
@@ -560,9 +560,9 @@ help:
 	@echo "... src/newgamewindow.o"
 	@echo "... src/newgamewindow.i"
 	@echo "... src/newgamewindow.s"
-	@echo "... src/oponent.o"
-	@echo "... src/oponent.i"
-	@echo "... src/oponent.s"
+	@echo "... src/opponent.o"
+	@echo "... src/opponent.i"
+	@echo "... src/opponent.s"
 	@echo "... src/player.o"
 	@echo "... src/player.i"
 	@echo "... src/player.s"

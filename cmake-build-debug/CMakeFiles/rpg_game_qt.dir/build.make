@@ -252,18 +252,18 @@ CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/newgamewindow.cpp -o CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.s
 
-CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
-CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.o: ../src/oponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/oponent.cpp
+CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
+CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o: ../src/opponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/opponent.cpp
 
-CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/oponent.cpp > CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.i
+CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/opponent.cpp > CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.i
 
-CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/oponent.cpp -o CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.s
+CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/opponent.cpp -o CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/src/player.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/player.cpp.o: ../src/player.cpp
@@ -316,7 +316,7 @@ rpg_game_qt_OBJECTS = \
 "CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o" \
 "CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o" \
 "CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o" \
-"CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.o" \
+"CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o" \
 "CMakeFiles/rpg_game_qt.dir/src/player.cpp.o" \
 "CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o"
@@ -334,7 +334,7 @@ rpg_game_qt: CMakeFiles/rpg_game_qt.dir/src/main.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o
-rpg_game_qt: CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.o
+rpg_game_qt: CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/src/player.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o

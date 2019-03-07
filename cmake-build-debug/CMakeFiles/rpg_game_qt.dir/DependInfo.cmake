@@ -16,7 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mateusz/repos/rpg-game-qt/src/mainwindow.cpp" "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o"
   "/home/mateusz/repos/rpg-game-qt/src/maptable.cpp" "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o"
   "/home/mateusz/repos/rpg-game-qt/src/newgamewindow.cpp" "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o"
-  "/home/mateusz/repos/rpg-game-qt/src/oponent.cpp" "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/oponent.cpp.o"
+  "/home/mateusz/repos/rpg-game-qt/src/opponent.cpp" "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o"
   "/home/mateusz/repos/rpg-game-qt/src/player.cpp" "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/player.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

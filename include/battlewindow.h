@@ -3,7 +3,8 @@
 
 #include <QWidget>
 #include "player.h"
-#include "oponent.h"
+#include "opponent.h"
+#include "battle.h"
 #include "inventorywindow.h"
 #include <QMessageBox>
 namespace Ui {
@@ -21,13 +22,13 @@ public:
     bool attack();
     ~BattleWindow();
 public slots:
-    void receiveBattleInfo(Player * gracz, Oponent *przeciwnik)
+    void receiveBattleInfo(Player *player, Opponent *opponent)
     {
-        player = gracz;
-        oponent = przeciwnik;
-        showStatus();
+         this->player = player;
+         this->opponent = opponent;
+         showStatus();
 
-        QMessageBox::information(0, "hehe", "receivebattle");
+//        QMessageBox::information(0, "hehe", "receivebattle");
     }
 
 private slots:
@@ -42,7 +43,8 @@ signals:
 private:
     Ui::BattleWindow *ui;
     Player *player;
-    Oponent *oponent;
+    Opponent *opponent;
+    Battle *battle;
     InventoryWindow *invWin;
 };
 

@@ -6,7 +6,7 @@
 #include "player.h"
 #include "inventorywindow.h"
 #include "battlewindow.h"
-#include "oponent.h"
+#include "opponent.h"
 #include "save.h"
 #include "interpreter.h"
 
@@ -44,7 +44,7 @@ private slots:
 signals:
 
     void sendPlayer(Player*);
-    void sendBattleInfo(Player*, Oponent* );
+    void sendBattleInfo(Player*, Opponent* );
 private:
     Ui::MapTable *ui;
     InventoryWindow *invWindow;

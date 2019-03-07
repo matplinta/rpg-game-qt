@@ -11,6 +11,7 @@ BattleWindow::BattleWindow(QWidget *parent) :
     QObject::connect(this, SIGNAL(sendPlayer(Player*)),
                     invWin, SLOT(receivePlayer(Player*))
                     );
+    battle = new Battle(player, opponent);
 }
 
 BattleWindow::~BattleWindow()
@@ -40,19 +41,19 @@ void BattleWindow::showStatus()
     ui->playerLabel->setAlignment(Qt::AlignLeft | Qt::AlignTop);
 
     info = "";
-    info.append(oponent->getName() + "\n\n");
-    if (oponent->getHealth())
+    info.append(opponent->getName() + "\n\n");
+    if (opponent->getHealth())
     {
-        info.append( "HP:       " + std::to_string(oponent->getHealth()) + " \n" );
+        info.append( "HP:       " + std::to_string(opponent->getHealth()) + " \n" );
 
     }
-    if (oponent->getStrength())
+    if (opponent->getStrength())
     {
-        info.append( "STRENGTH: " +  std::to_string(oponent->getStrength()) + " \n");
+        info.append( "STRENGTH: " +  std::to_string(opponent->getStrength()) + " \n");
     }
-    if (oponent->getLevel())
+    if (opponent->getLevel())
     {
-        info.append( "LEVEL:    " + std::to_string(oponent->getLevel()) + " \n");
+        info.append( "LEVEL:    " + std::to_string(opponent->getLevel()) + " \n");
 
     }
     ui->oponentLabel->setText(QString::fromStdString(info));
@@ -61,31 +62,32 @@ void BattleWindow::showStatus()
 void BattleWindow::showInfo()
 {
     std::string info;
-    info.append(player->getName() + " attacked " + oponent->getName() + ". Oponent loses " +
-         std::to_string(player->getStrength() - oponent->getDefence()) + "HP \n" +
-         oponent->getName() + " attacked " + player->getName() + ". You lost " +
-                std::to_string(oponent->getStrength() - player->getDefence()) + " HP");
+    info.append(player->getName() + " attacked " + opponent->getName() + ". Opponent loses " +
+         std::to_string(Battle::getDamage(player, opponent)) + "HP \n" +
+         opponent->getName() + " attacked " + player->getName() + ". You lost " +
+                std::to_string(Battle::getDamage(opponent, player)) + " HP");
     ui->statusLabel->setText(QString::fromStdString(info));
 }
 bool BattleWindow::attack()
 {
-    oponent->setHealth(oponent->getHealth() - (player->getStrength() - oponent->getDefence()));
-    if(oponent->getHealth() > 0)
+    Battle::attack(player, opponent);
+    if(opponent->getHealth() > 0)
     {
-        player->setHealth(player->getHealth() - (oponent->getStrength() - player->getDefence()));
+        Battle::attack(opponent, player);
         player->checkHealth();
-        oponent->checkHealth();
+        opponent->checkHealth();
         showStatus();
         showInfo();
-        if(player->getHealth()) {return true;}
-        else return false;
+        return player->getHealth() != 0;
     }
     else
     {
-        player->setEXP(player->getEXP() + oponent->getEXP());
-        QMessageBox::information(0, "You won!", QString::fromStdString("+ " + std::to_string(oponent->getEXP()) + " EXP"));
-        delete oponent;
-        oponent = 0;
+        player->setEXP(player->getEXP() + opponent->getEXP());
+        QMessageBox::information(0, "You won!", QString::fromStdString("+ " + std::to_string(opponent->getEXP()) + " EXP"));
+        delete opponent;
+        opponent = 0;
+        delete battle;
+        battle = 0;
         return true;
     }
 
@@ -96,9 +98,9 @@ void BattleWindow::on_attackButton_clicked()
     if(attack() == false)
     {
         QMessageBox::information(0, "You lost!", QString::fromStdString("GAME OVER"));
-        this->close();      //wylaczyc gre
+        parentWidget()->parentWidget()->close();     //wylaczyc gre
     }
-    if(!oponent)
+    if(!opponent)
     {
         this->close();
     }
@@ -109,13 +111,13 @@ void BattleWindow::on_escapeButton_clicked()
     int random = Element::genRandom(0,5);
     if(random)
     {
-        player->setHealth(player->getHealth() - (oponent->getStrength() - player->getDefence()));
+        player->setHealth(player->getHealth() - (opponent->getStrength() - player->getDefence()));
         player->checkHealth();
-        oponent->checkHealth();
+        opponent->checkHealth();
         showStatus();
         std::string info;
-        info.append("You failed to escape! " + oponent->getName() + " attacked " + player->getName() + ". You lost " +
-                    std::to_string(oponent->getStrength() - player->getDefence()) + " HP");
+        info.append("You failed to escape! " + opponent->getName() + " attacked " + player->getName() + ". You lost " +
+                    std::to_string(opponent->getStrength() - player->getDefence()) + " HP");
         ui->statusLabel->setText(QString::fromStdString(info));
         if(player->getHealth() == 0)
         {

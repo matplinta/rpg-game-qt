@@ -5,7 +5,7 @@
 #include <map>
 #include "villager.h"
 #include "item.h"
-#include "oponent.h"
+#include "opponent.h"
 #include "door.h"
 #include "player.h"
 
@@ -33,6 +33,8 @@ protected:
 
 
 };
+
+
 
 class LocationHome : public Location
 {
@@ -92,10 +94,13 @@ class LocationFlyweight
 {
 protected:
     std::map<std::string, Location*> visitedLocations;
+    static LocationFlyweight *inst;
 public:
     Location *getLocation(std::string);
     ~LocationFlyweight();
     static LocationFlyweight& getFlyweight();
+    const std::map<std::string, Location *> &getVisitedLocations() const;
+    void setVisitedLocations(const std::map<std::string, Location *> &visitedLocations);
 };
 
 

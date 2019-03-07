@@ -36,17 +36,17 @@ QT_MOC_LITERAL(1, 13, 10), // "sendPlayer"
 QT_MOC_LITERAL(2, 24, 0), // ""
 QT_MOC_LITERAL(3, 25, 7), // "Player*"
 QT_MOC_LITERAL(4, 33, 17), // "receiveBattleInfo"
-QT_MOC_LITERAL(5, 51, 5), // "gracz"
-QT_MOC_LITERAL(6, 57, 8), // "Oponent*"
-QT_MOC_LITERAL(7, 66, 10), // "przeciwnik"
+QT_MOC_LITERAL(5, 51, 6), // "player"
+QT_MOC_LITERAL(6, 58, 9), // "Opponent*"
+QT_MOC_LITERAL(7, 68, 8), // "opponent"
 QT_MOC_LITERAL(8, 77, 23), // "on_attackButton_clicked"
 QT_MOC_LITERAL(9, 101, 23), // "on_escapeButton_clicked"
 QT_MOC_LITERAL(10, 125, 26) // "on_inventoryButton_clicked"
 
     },
     "BattleWindow\0sendPlayer\0\0Player*\0"
-    "receiveBattleInfo\0gracz\0Oponent*\0"
-    "przeciwnik\0on_attackButton_clicked\0"
+    "receiveBattleInfo\0player\0Opponent*\0"
+    "opponent\0on_attackButton_clicked\0"
     "on_escapeButton_clicked\0"
     "on_inventoryButton_clicked"
 };
@@ -93,7 +93,7 @@ void BattleWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->sendPlayer((*reinterpret_cast< Player*(*)>(_a[1]))); break;
-        case 1: _t->receiveBattleInfo((*reinterpret_cast< Player*(*)>(_a[1])),(*reinterpret_cast< Oponent*(*)>(_a[2]))); break;
+        case 1: _t->receiveBattleInfo((*reinterpret_cast< Player*(*)>(_a[1])),(*reinterpret_cast< Opponent*(*)>(_a[2]))); break;
         case 2: _t->on_attackButton_clicked(); break;
         case 3: _t->on_escapeButton_clicked(); break;
         case 4: _t->on_inventoryButton_clicked(); break;

@@ -22,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MapTable_t {
     QByteArrayData data[9];
-    char stringdata0[124];
+    char stringdata0[125];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -36,14 +36,14 @@ QT_MOC_LITERAL(1, 9, 10), // "sendPlayer"
 QT_MOC_LITERAL(2, 20, 0), // ""
 QT_MOC_LITERAL(3, 21, 7), // "Player*"
 QT_MOC_LITERAL(4, 29, 14), // "sendBattleInfo"
-QT_MOC_LITERAL(5, 44, 8), // "Oponent*"
-QT_MOC_LITERAL(6, 53, 21), // "on_exitButton_clicked"
-QT_MOC_LITERAL(7, 75, 26), // "on_inventoryButton_clicked"
-QT_MOC_LITERAL(8, 102, 21) // "on_saveButton_clicked"
+QT_MOC_LITERAL(5, 44, 9), // "Opponent*"
+QT_MOC_LITERAL(6, 54, 21), // "on_exitButton_clicked"
+QT_MOC_LITERAL(7, 76, 26), // "on_inventoryButton_clicked"
+QT_MOC_LITERAL(8, 103, 21) // "on_saveButton_clicked"
 
     },
     "MapTable\0sendPlayer\0\0Player*\0"
-    "sendBattleInfo\0Oponent*\0on_exitButton_clicked\0"
+    "sendBattleInfo\0Opponent*\0on_exitButton_clicked\0"
     "on_inventoryButton_clicked\0"
     "on_saveButton_clicked"
 };
@@ -90,7 +90,7 @@ void MapTable::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->sendPlayer((*reinterpret_cast< Player*(*)>(_a[1]))); break;
-        case 1: _t->sendBattleInfo((*reinterpret_cast< Player*(*)>(_a[1])),(*reinterpret_cast< Oponent*(*)>(_a[2]))); break;
+        case 1: _t->sendBattleInfo((*reinterpret_cast< Player*(*)>(_a[1])),(*reinterpret_cast< Opponent*(*)>(_a[2]))); break;
         case 2: _t->on_exitButton_clicked(); break;
         case 3: _t->on_inventoryButton_clicked(); break;
         case 4: _t->on_saveButton_clicked(); break;
@@ -106,7 +106,7 @@ void MapTable::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
             }
         }
         {
-            using _t = void (MapTable::*)(Player * , Oponent * );
+            using _t = void (MapTable::*)(Player * , Opponent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&MapTable::sendBattleInfo)) {
                 *result = 1;
                 return;
@@ -163,7 +163,7 @@ void MapTable::sendPlayer(Player * _t1)
 }
 
 // SIGNAL 1
-void MapTable::sendBattleInfo(Player * _t1, Oponent * _t2)
+void MapTable::sendBattleInfo(Player * _t1, Opponent * _t2)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 1, _a);
