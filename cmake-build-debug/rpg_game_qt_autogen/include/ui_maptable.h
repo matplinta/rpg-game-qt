@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'maptable.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.1
+** Created by: Qt User Interface Compiler version 5.12.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -103,6 +103,7 @@ public:
         verticalLayout->addWidget(controlsButton);
 
         tableWidget->raise();
+        graphicsView_2->raise();
 
         retranslateUi(MapTable);
 

@@ -13,36 +13,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d815dac5-d192-4154-9017-a2a253826fa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/maps/map3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/item.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/item.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/location.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/player.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/src/player.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/AutogenInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/AutogenInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/AutogenOldSettings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/AutogenOldSettings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/RCCresfileInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/RCCresfileInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/RCCresfileSettings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/RCCresfileSettings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_battlewindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_battlewindow.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_entry.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_entry.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_inventorywindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_inventorywindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_loadgamewindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_loadgamewindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_mainwindow.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_maptable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_maptable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_newgamewindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/6YEA5652QU/moc_newgamewindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_battlewindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_battlewindow.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_entry.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_entry.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_inventorywindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_inventorywindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_loadgamewindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_loadgamewindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_mainwindow.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_maptable.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_maptable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/entry.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/entry.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/interpreter.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/interpreter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/location.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/location.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/maptable.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/maptable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/newgamewindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/newgamewindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/maps/map1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/maps/map1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save/d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/save/d.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_newgamewindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/rpg_game_qt_autogen/include/ui_newgamewindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/villager.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/villager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/awd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/save/awd.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/battlewindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/battlewindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entry.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/entry.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entry.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/entry.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/location.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/location.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/maptable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/maptable.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/maptable.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/maptable.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newgamewindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/newgamewindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/player.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,11 +106,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.71884984">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/location.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1452">
-                  <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+                <state relative-caret-position="475">
+                  <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -83,28 +119,24 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/player.cpp">
+            <entry file="file://$PROJECT_DIR$/include/villager.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+                <state relative-caret-position="225">
+                  <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/include/location.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-                </state>
-              </provider>
+            <entry file="file://$PROJECT_DIR$/include/subtitle.h">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/maptable.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="78" lean-forward="true" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+                <state relative-caret-position="487">
+                  <caret line="169" column="69" selection-start-line="169" selection-start-column="69" selection-end-line="169" selection-end-column="69" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -113,21 +145,54 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/maps/map1.txt">
+            <entry file="file://$PROJECT_DIR$/include/player.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+                <state relative-caret-position="60">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/include/maptable.h">
+            <entry file="file://$PROJECT_DIR$/include/opponent.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
                   <folding>
-                    <element signature="e#39#57#0" expanded="true" />
+                    <element signature="e#38#55#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/save.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
+                  <folding>
+                    <element signature="e#30#49#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/interpreter.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="322">
+                  <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/newgamewindow.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="570">
+                  <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#0#34#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -137,25 +202,7 @@
             <entry file="file://$PROJECT_DIR$/src/locationflyweight.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="60">
-                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/maps/map3.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/include/interpreter.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="50">
-                  <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
                 </state>
               </provider>
             </entry>
@@ -163,12 +210,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/maps/map3.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="300">
-                  <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+                  <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -224,7 +271,6 @@
         <option value="$PROJECT_DIR$/include/battle.h" />
         <option value="$PROJECT_DIR$/include/locationFlyweight.h" />
         <option value="$PROJECT_DIR$/include/locationflyweight.h" />
-        <option value="$PROJECT_DIR$/src/battlewindow.cpp" />
         <option value="$PROJECT_DIR$/include/entry.h" />
         <option value="$PROJECT_DIR$/include/Entry.h" />
         <option value="$PROJECT_DIR$/include/newgamewindow.h" />
@@ -233,29 +279,30 @@
         <option value="$PROJECT_DIR$/src/newgamewindow.cpp" />
         <option value="$PROJECT_DIR$/src/entry.cpp" />
         <option value="$PROJECT_DIR$/include/maptable.h" />
-        <option value="$PROJECT_DIR$/src/maptable.ui" />
         <option value="$PROJECT_DIR$/src/locationflyweight.cpp" />
         <option value="$PROJECT_DIR$/include/interpreter.h" />
         <option value="$PROJECT_DIR$/include/location.h" />
-        <option value="$PROJECT_DIR$/src/location.cpp" />
         <option value="$PROJECT_DIR$/resources/maps/map3.txt" />
         <option value="$PROJECT_DIR$/resources/maps/map1.txt" />
-        <option value="$PROJECT_DIR$/src/maptable.cpp" />
         <option value="$PROJECT_DIR$/src/player.cpp" />
+        <option value="$PROJECT_DIR$/src/maptable.ui" />
+        <option value="$PROJECT_DIR$/src/battlewindow.cpp" />
+        <option value="$PROJECT_DIR$/src/maptable.cpp" />
+        <option value="$PROJECT_DIR$/include/villager.h" />
+        <option value="$PROJECT_DIR$/src/location.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1753" />
-    <option name="width" value="1910" />
-    <option name="height" value="783" />
+    <option name="x" value="1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,27 +318,18 @@
             <path>
               <item name="rpg_game_qt" type="b2602c69:ProjectViewProjectNode" />
               <item name="rpg-game-qt" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpg_game_qt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpg-game-qt" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="maps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpg_game_qt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpg-game-qt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.C/C++" />
@@ -356,11 +394,12 @@
       <workItem from="1551908084272" duration="9469000" />
       <workItem from="1551944447639" duration="6115000" />
       <workItem from="1551963257527" duration="6246000" />
+      <workItem from="1555277424980" duration="1257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57701000" />
+    <option name="totallyTimeSpent" value="61044000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,20 +412,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1613076" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16559486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32947233" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31431648" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31216362" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29063508" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32615715" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.33799785" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32938644" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32938644" />
@@ -432,16 +470,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/subtitle.txt" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/basic_string.h" />
-    <entry file="file:///usr/include/c++/5/ext/string_conversions.h" />
     <entry file="file://$PROJECT_DIR$/src/loadgamewindow.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
@@ -474,16 +502,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/gameprocess.h" />
-    <entry file="file://$PROJECT_DIR$/include/opponent.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#38#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/boss.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -504,9 +522,6 @@
           <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/item.h">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/include/inventorywindow.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -548,16 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/save.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
-          <folding>
-            <element signature="e#30#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/8.2.1/bits/stl_map.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -569,16 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/player.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#34#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,8 +596,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/locationflyweight.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -617,16 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newgamewindow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,20 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/maptable.ui">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="151" column="37" lean-forward="true" selection-start-line="151" selection-start-column="37" selection-end-line="151" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/newgamewindow.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mainwindow.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -671,13 +642,6 @@
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/battlewindow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="118" column="110" selection-start-line="118" selection-start-column="110" selection-end-line="118" selection-end-column="110" />
         </state>
       </provider>
     </entry>
@@ -701,20 +665,6 @@
     <entry file="file://$PROJECT_DIR$/include/door.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/location.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/interpreter.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/maps/map1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -724,8 +674,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/maptable.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="309">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="e#39#57#0" expanded="true" />
           </folding>
@@ -739,41 +689,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/maps/map3.txt">
+    <entry file="file://$PROJECT_DIR$/src/maptable.ui">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="380">
+          <caret line="151" column="33" lean-forward="true" selection-start-line="151" selection-start-column="33" selection-end-line="151" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/location.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+          <folding>
+            <element signature="e#38#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/battlewindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newgamewindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/locationflyweight.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/location.cpp">
+    <entry file="file://$PROJECT_DIR$/src/item.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+        <state relative-caret-position="-7" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/item.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/newgamewindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/interpreter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/player.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/opponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#38#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/keypresshandler.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/save.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
+          <folding>
+            <element signature="e#30#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maptable.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="169" column="69" selection-start-line="169" selection-start-column="69" selection-end-line="169" selection-end-column="69" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/player.cpp">
+    <entry file="file://$PROJECT_DIR$/include/subtitle.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/maps/map3.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="300">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/maptable.cpp">
+    <entry file="file://$PROJECT_DIR$/include/villager.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="78" lean-forward="true" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+        <state relative-caret-position="225">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/location.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>

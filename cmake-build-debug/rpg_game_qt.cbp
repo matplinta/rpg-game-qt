@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\;CMake Files\resources\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/mateusz/repos/rpg-game-qt/cmake-build-debug"/>
+				<Option working_dir="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/mateusz/repos/rpg-game-qt/cmake-build-debug"/>
+				<Option working_dir="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rpg_game_qt">
-				<Option output="/home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mateusz/repos/rpg-game-qt/cmake-build-debug"/>
+				<Option output="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -37,14 +37,14 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/cmake-build-debug"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/include"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/."/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/resources/differentResources"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/resources/images"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/resources/maps"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/save"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/include"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/."/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/resources/differentResources"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/resources/images"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/resources/maps"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/save"/>
 					<Add directory="/usr/include/qt"/>
 					<Add directory="/usr/include/qt/QtWidgets"/>
 					<Add directory="/usr/include/qt/QtGui"/>
@@ -59,15 +59,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rpg_game_qt"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rpg_game_qt"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rpg_game_qt/fast">
-				<Option output="/home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mateusz/repos/rpg-game-qt/cmake-build-debug"/>
+				<Option output="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,14 +75,14 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/cmake-build-debug"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/include"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/."/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/resources/differentResources"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/resources/images"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/resources/maps"/>
-					<Add directory="/home/mateusz/repos/rpg-game-qt/save"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/include"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/."/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/resources/differentResources"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/resources/images"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/resources/maps"/>
+					<Add directory="/home/mateusz/Repos/rpg-game-qt/save"/>
 					<Add directory="/usr/include/qt"/>
 					<Add directory="/usr/include/qt/QtWidgets"/>
 					<Add directory="/usr/include/qt/QtGui"/>
@@ -97,334 +97,334 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rpg_game_qt/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rpg_game_qt/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/mateusz/repos/rpg-game-qt/cmake-build-debug"/>
+				<Option working_dir="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rpg_game_qt_autogen">
-				<Option working_dir="/home/mateusz/repos/rpg-game-qt/cmake-build-debug"/>
+				<Option working_dir="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rpg_game_qt_autogen"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mateusz/repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rpg_game_qt_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.rule">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.rule">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/mocs_compilation.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/battle.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/battle.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/battlewindow.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/battlewindow.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/boss.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/boss.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/door.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/door.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/element.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/element.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/entry.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/entry.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/interpreter.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/interpreter.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/inventory.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/inventory.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/inventorywindow.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/inventorywindow.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/item.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/item.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/keypresshandler.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/keypresshandler.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/loadgamewindow.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/loadgamewindow.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/location.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/location.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/locationflyweight.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/locationflyweight.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/mainwindow.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/mainwindow.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/maps.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/maps.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/maptable.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/maptable.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/newgamewindow.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/newgamewindow.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/opponent.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/opponent.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/player.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/player.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/save.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/save.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/subtitle.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/subtitle.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/include/villager.h">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/include/villager.h">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/resources/resfile.qrc">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/resources/resfile.qrc">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/battlewindow.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/battlewindow.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/battlewindow.ui">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/battlewindow.ui">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/entry.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/entry.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/entry.ui">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/entry.ui">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/inventorywindow.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/inventorywindow.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/inventorywindow.ui">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/inventorywindow.ui">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/item.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/item.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/loadgamewindow.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/loadgamewindow.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/loadgamewindow.ui">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/loadgamewindow.ui">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/location.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/location.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/locationflyweight.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/locationflyweight.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/main.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/main.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/mainwindow.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/mainwindow.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/mainwindow.ui">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/mainwindow.ui">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/maptable.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/maptable.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/maptable.ui">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/maptable.ui">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/newgamewindow.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/newgamewindow.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/newgamewindow.ui">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/newgamewindow.ui">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/opponent.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/opponent.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/src/player.cpp">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/src/player.cpp">
 			<Option target="rpg_game_qt"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/CMakeLists.txt">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/mateusz/repos/rpg-game-qt/resources/resfile.qrc">
+		<Unit filename="/home/mateusz/Repos/rpg-game-qt/resources/resfile.qrc">
 			<Option virtualFolder="CMake Files\resources\"/>
 		</Unit>
 	</Project>

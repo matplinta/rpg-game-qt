@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -g   -fPIC -std=gnu++11
 
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/mateusz/repos/rpg-game-qt/cmake-build-debug -I/home/mateusz/repos/rpg-game-qt -I/home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/include -I/home/mateusz/repos/rpg-game-qt/. -I/home/mateusz/repos/rpg-game-qt/resources/differentResources -I/home/mateusz/repos/rpg-game-qt/resources/images -I/home/mateusz/repos/rpg-game-qt/resources/maps -I/home/mateusz/repos/rpg-game-qt/save -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ 
+CXX_INCLUDES = -I/home/mateusz/Repos/rpg-game-qt/cmake-build-debug -I/home/mateusz/Repos/rpg-game-qt -I/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/include -I/home/mateusz/Repos/rpg-game-qt/. -I/home/mateusz/Repos/rpg-game-qt/resources/differentResources -I/home/mateusz/Repos/rpg-game-qt/resources/images -I/home/mateusz/Repos/rpg-game-qt/resources/maps -I/home/mateusz/Repos/rpg-game-qt/save -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ 
 

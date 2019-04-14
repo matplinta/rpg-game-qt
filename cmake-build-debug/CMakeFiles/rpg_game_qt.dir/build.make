@@ -43,10 +43,10 @@ RM = /home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mateusz/repos/rpg-game-qt
+CMAKE_SOURCE_DIR = /home/mateusz/Repos/rpg-game-qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mateusz/repos/rpg-game-qt/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mateusz/Repos/rpg-game-qt/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rpg_game_qt.dir/depend.make
@@ -119,203 +119,203 @@ rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp: ../resources/images/night_dashLe
 rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp: ../resources/images/outside.png
 rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp: ../resources/images/space.png
 rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp: ../resources/images/battle-background0.png
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resources/resfile.qrc"
-	/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_autorcc /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/RCCresfileInfo.cmake Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resources/resfile.qrc"
+	/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_autorcc /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/RCCresfileInfo.cmake Debug
 
 CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.o: ../src/battlewindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/battlewindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.o -c /home/mateusz/Repos/rpg-game-qt/src/battlewindow.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/battlewindow.cpp > CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/src/battlewindow.cpp > CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/battlewindow.cpp -o CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/src/battlewindow.cpp -o CMakeFiles/rpg_game_qt.dir/src/battlewindow.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o: ../src/entry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/entry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/entry.cpp.o -c /home/mateusz/Repos/rpg-game-qt/src/entry.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/entry.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/entry.cpp > CMakeFiles/rpg_game_qt.dir/src/entry.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/src/entry.cpp > CMakeFiles/rpg_game_qt.dir/src/entry.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/src/entry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/entry.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/entry.cpp -o CMakeFiles/rpg_game_qt.dir/src/entry.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/src/entry.cpp -o CMakeFiles/rpg_game_qt.dir/src/entry.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.o: ../src/inventorywindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/inventorywindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.o -c /home/mateusz/Repos/rpg-game-qt/src/inventorywindow.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/inventorywindow.cpp > CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/src/inventorywindow.cpp > CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/inventorywindow.cpp -o CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/src/inventorywindow.cpp -o CMakeFiles/rpg_game_qt.dir/src/inventorywindow.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/src/item.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/item.cpp.o: ../src/item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/item.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/item.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/item.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/item.cpp.o -c /home/mateusz/Repos/rpg-game-qt/src/item.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/item.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/item.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/item.cpp > CMakeFiles/rpg_game_qt.dir/src/item.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/src/item.cpp > CMakeFiles/rpg_game_qt.dir/src/item.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/src/item.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/item.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/item.cpp -o CMakeFiles/rpg_game_qt.dir/src/item.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/src/item.cpp -o CMakeFiles/rpg_game_qt.dir/src/item.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o: ../src/loadgamewindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/loadgamewindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.o -c /home/mateusz/Repos/rpg-game-qt/src/loadgamewindow.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/loadgamewindow.cpp > CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/src/loadgamewindow.cpp > CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/loadgamewindow.cpp -o CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/src/loadgamewindow.cpp -o CMakeFiles/rpg_game_qt.dir/src/loadgamewindow.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/src/location.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/location.cpp.o: ../src/location.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/location.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/location.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/location.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/location.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/location.cpp.o -c /home/mateusz/Repos/rpg-game-qt/src/location.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/location.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/location.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/location.cpp > CMakeFiles/rpg_game_qt.dir/src/location.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/src/location.cpp > CMakeFiles/rpg_game_qt.dir/src/location.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/src/location.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/location.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/location.cpp -o CMakeFiles/rpg_game_qt.dir/src/location.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/src/location.cpp -o CMakeFiles/rpg_game_qt.dir/src/location.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/main.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/main.cpp.o -c /home/mateusz/Repos/rpg-game-qt/src/main.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/main.cpp > CMakeFiles/rpg_game_qt.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/src/main.cpp > CMakeFiles/rpg_game_qt.dir/src/main.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/main.cpp -o CMakeFiles/rpg_game_qt.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/src/main.cpp -o CMakeFiles/rpg_game_qt.dir/src/main.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o: ../src/mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.o -c /home/mateusz/Repos/rpg-game-qt/src/mainwindow.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/mainwindow.cpp > CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/src/mainwindow.cpp > CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/mainwindow.cpp -o CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/src/mainwindow.cpp -o CMakeFiles/rpg_game_qt.dir/src/mainwindow.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o: ../src/maptable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/maptable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.o -c /home/mateusz/Repos/rpg-game-qt/src/maptable.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/maptable.cpp > CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/src/maptable.cpp > CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/maptable.cpp -o CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/src/maptable.cpp -o CMakeFiles/rpg_game_qt.dir/src/maptable.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o: ../src/newgamewindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/newgamewindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.o -c /home/mateusz/Repos/rpg-game-qt/src/newgamewindow.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/newgamewindow.cpp > CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/src/newgamewindow.cpp > CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/newgamewindow.cpp -o CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/src/newgamewindow.cpp -o CMakeFiles/rpg_game_qt.dir/src/newgamewindow.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o: ../src/opponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/opponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.o -c /home/mateusz/Repos/rpg-game-qt/src/opponent.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/opponent.cpp > CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/src/opponent.cpp > CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/opponent.cpp -o CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/src/opponent.cpp -o CMakeFiles/rpg_game_qt.dir/src/opponent.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/src/player.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/player.cpp.o: ../src/player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/player.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/player.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/player.cpp.o -c /home/mateusz/Repos/rpg-game-qt/src/player.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/player.cpp > CMakeFiles/rpg_game_qt.dir/src/player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/src/player.cpp > CMakeFiles/rpg_game_qt.dir/src/player.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/src/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/player.cpp -o CMakeFiles/rpg_game_qt.dir/src/player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/src/player.cpp -o CMakeFiles/rpg_game_qt.dir/src/player.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o: ../src/locationflyweight.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o -c /home/mateusz/repos/rpg-game-qt/src/locationflyweight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o -c /home/mateusz/Repos/rpg-game-qt/src/locationflyweight.cpp
 
 CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/src/locationflyweight.cpp > CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/src/locationflyweight.cpp > CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/src/locationflyweight.cpp -o CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/src/locationflyweight.cpp -o CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o: rpg_game_qt_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o -c /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/mocs_compilation.cpp
 
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/mocs_compilation.cpp > CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/mocs_compilation.cpp > CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/mocs_compilation.cpp -o CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/mocs_compilation.cpp -o CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o: CMakeFiles/rpg_game_qt.dir/flags.make
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o: rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o -c /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp
 
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp > CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp > CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.i
 
 CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp -o CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp -o CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.s
 
 # Object files for target rpg_game_qt
 rpg_game_qt_OBJECTS = \
@@ -354,11 +354,11 @@ rpg_game_qt: CMakeFiles/rpg_game_qt.dir/src/locationflyweight.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/mocs_compilation.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp.o
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/build.make
-rpg_game_qt: /usr/lib/libQt5Widgets.so.5.12.1
-rpg_game_qt: /usr/lib/libQt5Gui.so.5.12.1
-rpg_game_qt: /usr/lib/libQt5Core.so.5.12.1
+rpg_game_qt: /usr/lib/libQt5Widgets.so.5.12.2
+rpg_game_qt: /usr/lib/libQt5Gui.so.5.12.2
+rpg_game_qt: /usr/lib/libQt5Core.so.5.12.2
 rpg_game_qt: CMakeFiles/rpg_game_qt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable rpg_game_qt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable rpg_game_qt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rpg_game_qt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -371,6 +371,6 @@ CMakeFiles/rpg_game_qt.dir/clean:
 .PHONY : CMakeFiles/rpg_game_qt.dir/clean
 
 CMakeFiles/rpg_game_qt.dir/depend: rpg_game_qt_autogen/3YJK5W5UP7/qrc_resfile.cpp
-	cd /home/mateusz/repos/rpg-game-qt/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mateusz/repos/rpg-game-qt /home/mateusz/repos/rpg-game-qt /home/mateusz/repos/rpg-game-qt/cmake-build-debug /home/mateusz/repos/rpg-game-qt/cmake-build-debug /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mateusz/Repos/rpg-game-qt/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mateusz/Repos/rpg-game-qt /home/mateusz/Repos/rpg-game-qt /home/mateusz/Repos/rpg-game-qt/cmake-build-debug /home/mateusz/Repos/rpg-game-qt/cmake-build-debug /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rpg_game_qt.dir/depend
 

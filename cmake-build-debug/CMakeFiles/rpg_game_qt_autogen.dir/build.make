@@ -43,10 +43,10 @@ RM = /home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mateusz/repos/rpg-game-qt
+CMAKE_SOURCE_DIR = /home/mateusz/Repos/rpg-game-qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mateusz/repos/rpg-game-qt/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mateusz/Repos/rpg-game-qt/cmake-build-debug
 
 # Utility rule file for rpg_game_qt_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/mateusz/repos/rpg-game-qt/cmake-build-debug
 include CMakeFiles/rpg_game_qt_autogen.dir/progress.make
 
 CMakeFiles/rpg_game_qt_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target rpg_game_qt"
-	/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_autogen /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/AutogenInfo.cmake Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target rpg_game_qt"
+	/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_autogen /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/AutogenInfo.cmake Debug
 
 rpg_game_qt_autogen: CMakeFiles/rpg_game_qt_autogen
 rpg_game_qt_autogen: CMakeFiles/rpg_game_qt_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/rpg_game_qt_autogen.dir/clean:
 .PHONY : CMakeFiles/rpg_game_qt_autogen.dir/clean
 
 CMakeFiles/rpg_game_qt_autogen.dir/depend:
-	cd /home/mateusz/repos/rpg-game-qt/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mateusz/repos/rpg-game-qt /home/mateusz/repos/rpg-game-qt /home/mateusz/repos/rpg-game-qt/cmake-build-debug /home/mateusz/repos/rpg-game-qt/cmake-build-debug /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mateusz/Repos/rpg-game-qt/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mateusz/Repos/rpg-game-qt /home/mateusz/Repos/rpg-game-qt /home/mateusz/Repos/rpg-game-qt/cmake-build-debug /home/mateusz/Repos/rpg-game-qt/cmake-build-debug /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/rpg_game_qt_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rpg_game_qt_autogen.dir/depend
 

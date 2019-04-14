@@ -1,4 +1,4 @@
-# Install script for directory: /home/mateusz/repos/rpg-game-qt
+# Install script for directory: /home/mateusz/Repos/rpg-game-qt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

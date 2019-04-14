@@ -122,12 +122,13 @@ void BattleWindow::on_escapeButton_clicked()
         if(player->getHealth() == 0)
         {
             QMessageBox::information(0, "You lost!", QString::fromStdString("GAME OVER"));
-            this->close();      //wylaczyc gre
+            parentWidget()->parentWidget()->close();      //wylaczyc gre
         }
     }
     else
     {
         QMessageBox::information(0, "You escaped!", QString::fromStdString("You got lucky! You were able to escape this fight!"));
+
         this->close();
     }
 

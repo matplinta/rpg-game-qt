@@ -149,7 +149,7 @@ void MapTable::actionHandler(char temp)
     }
     else if(temp == 'o')
     {
-        Opponent *opponent = dynamic_cast<Opponent*>(getFollowingActionElement());
+        auto *opponent = dynamic_cast<Opponent*>(getFollowingActionElement());
         battleWindow = new BattleWindow(this);
         QObject::connect(this, SIGNAL(sendBattleInfo(Player*, Opponent *)),
                         battleWindow, SLOT(receiveBattleInfo(Player*, Opponent *))

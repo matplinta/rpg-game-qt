@@ -1,4 +1,4 @@
-The system is: Linux - 4.20.13-arch1-1-ARCH - x86_64
+The system is: Linux - 5.0.7-arch1-1-ARCH - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5e1ca/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5e1ca.dir/build.make CMakeFiles/cmTC_5e1ca.dir/build
-make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5e1ca.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5e1ca.dir/testCCompiler.c.o   -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_5e1ca
-/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e1ca.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_5e1ca.dir/testCCompiler.c.o  -o cmTC_5e1ca 
-make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4e580/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e580.dir/build.make CMakeFiles/cmTC_4e580.dir/build
+make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e580.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4e580.dir/testCCompiler.c.o   -c /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4e580
+/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e580.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4e580.dir/testCCompiler.c.o  -o cmTC_4e580 
+make[1]: Leaving directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b94ab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b94ab.dir/build.make CMakeFiles/cmTC_b94ab.dir/build
-make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b94ab.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b94ab.dir/CMakeCCompilerABI.c.o   -c /home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_b94ab
-/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b94ab.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_b94ab.dir/CMakeCCompilerABI.c.o  -o cmTC_b94ab 
+Run Build Command:"/usr/bin/make" "cmTC_98ace/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98ace.dir/build.make CMakeFiles/cmTC_98ace.dir/build
+make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98ace.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_98ace.dir/CMakeCCompilerABI.c.o   -c /home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_98ace
+/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98ace.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_98ace.dir/CMakeCCompilerABI.c.o  -o cmTC_98ace 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 8.2.1 20181127 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b94ab' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN2P2HT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b94ab /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_b94ab.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b94ab' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98ace' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWQmHF5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_98ace /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_98ace.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98ace' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b94ab/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b94ab.dir/build.make CMakeFiles/cmTC_b94ab.dir/build]
-  ignore line: [make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_b94ab.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_b94ab.dir/CMakeCCompilerABI.c.o   -c /home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_b94ab]
-  ignore line: [/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b94ab.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_b94ab.dir/CMakeCCompilerABI.c.o  -o cmTC_b94ab ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_98ace/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_98ace.dir/build.make CMakeFiles/cmTC_98ace.dir/build]
+  ignore line: [make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_98ace.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_98ace.dir/CMakeCCompilerABI.c.o   -c /home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_98ace]
+  ignore line: [/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98ace.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_98ace.dir/CMakeCCompilerABI.c.o  -o cmTC_98ace ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.1 20181127 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b94ab' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN2P2HT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b94ab /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_b94ab.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98ace' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWQmHF5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_98ace /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_98ace.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccN2P2HT.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccWQmHF5.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b94ab] ==> ignore
+    arg [cmTC_98ace] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o] ==> ignore
@@ -116,7 +116,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..]
-    arg [CMakeFiles/cmTC_b94ab.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_98ace.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -141,17 +141,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ae9c3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ae9c3.dir/build.make CMakeFiles/cmTC_ae9c3.dir/build
-make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ae9c3.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_ae9c3.dir/feature_tests.c.o   -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ae9c3
-/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae9c3.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_ae9c3.dir/feature_tests.c.o  -o cmTC_ae9c3 
-make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1a64b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a64b.dir/build.make CMakeFiles/cmTC_1a64b.dir/build
+make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a64b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_1a64b.dir/feature_tests.c.o   -c /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1a64b
+/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a64b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1a64b.dir/feature_tests.c.o  -o cmTC_1a64b 
+make[1]: Leaving directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -161,17 +161,17 @@ make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CM
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ed273/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ed273.dir/build.make CMakeFiles/cmTC_ed273.dir/build
-make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ed273.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_ed273.dir/feature_tests.c.o   -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ed273
-/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed273.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_ed273.dir/feature_tests.c.o  -o cmTC_ed273 
-make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_583c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_583c3.dir/build.make CMakeFiles/cmTC_583c3.dir/build
+make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_583c3.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_583c3.dir/feature_tests.c.o   -c /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_583c3
+/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_583c3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_583c3.dir/feature_tests.c.o  -o cmTC_583c3 
+make[1]: Leaving directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -181,17 +181,17 @@ make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CM
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_be125/fast"
-/usr/bin/make -f CMakeFiles/cmTC_be125.dir/build.make CMakeFiles/cmTC_be125.dir/build
-make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_be125.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_be125.dir/feature_tests.c.o   -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_be125
-/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be125.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_be125.dir/feature_tests.c.o  -o cmTC_be125 
-make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6af47/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6af47.dir/build.make CMakeFiles/cmTC_6af47.dir/build
+make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6af47.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_6af47.dir/feature_tests.c.o   -c /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6af47
+/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6af47.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6af47.dir/feature_tests.c.o  -o cmTC_6af47 
+make[1]: Leaving directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -199,30 +199,30 @@ make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CM
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_36005/fast"
-/usr/bin/make -f CMakeFiles/cmTC_36005.dir/build.make CMakeFiles/cmTC_36005.dir/build
-make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_36005.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_36005.dir/testCXXCompiler.cxx.o -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_36005
-/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36005.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_36005.dir/testCXXCompiler.cxx.o  -o cmTC_36005 
-make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2d7b2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d7b2.dir/build.make CMakeFiles/cmTC_2d7b2.dir/build
+make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d7b2.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_2d7b2.dir/testCXXCompiler.cxx.o -c /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_2d7b2
+/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d7b2.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2d7b2.dir/testCXXCompiler.cxx.o  -o cmTC_2d7b2 
+make[1]: Leaving directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_76233/fast"
-/usr/bin/make -f CMakeFiles/cmTC_76233.dir/build.make CMakeFiles/cmTC_76233.dir/build
-make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_76233.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_76233.dir/CMakeCXXCompilerABI.cpp.o -c /home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_76233
-/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76233.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_76233.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_76233 
+Run Build Command:"/usr/bin/make" "cmTC_8ddbb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ddbb.dir/build.make CMakeFiles/cmTC_8ddbb.dir/build
+make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ddbb.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_8ddbb.dir/CMakeCXXCompilerABI.cpp.o -c /home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_8ddbb
+/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ddbb.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_8ddbb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8ddbb 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper
@@ -232,24 +232,24 @@ Thread model: posix
 gcc version 8.2.1 20181127 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76233' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccj00qvs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_76233 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_76233.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76233' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8ddbb' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgEJSDD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8ddbb /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_8ddbb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8ddbb' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_76233/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_76233.dir/build.make CMakeFiles/cmTC_76233.dir/build]
-  ignore line: [make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_76233.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_76233.dir/CMakeCXXCompilerABI.cpp.o -c /home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_76233]
-  ignore line: [/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76233.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_76233.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_76233 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8ddbb/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8ddbb.dir/build.make CMakeFiles/cmTC_8ddbb.dir/build]
+  ignore line: [make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8ddbb.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_8ddbb.dir/CMakeCXXCompilerABI.cpp.o -c /home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_8ddbb]
+  ignore line: [/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ddbb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_8ddbb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8ddbb ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper]
@@ -259,13 +259,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.1 20181127 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76233' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccj00qvs.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_76233 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_76233.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8ddbb' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgEJSDD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8ddbb /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_8ddbb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccj00qvs.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccgEJSDD.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -280,7 +280,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_76233] ==> ignore
+    arg [cmTC_8ddbb] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o] ==> ignore
@@ -289,7 +289,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..]
-    arg [CMakeFiles/cmTC_76233.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_8ddbb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -312,17 +312,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8749d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8749d.dir/build.make CMakeFiles/cmTC_8749d.dir/build
-make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8749d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_8749d.dir/feature_tests.cxx.o -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8749d
-/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8749d.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_8749d.dir/feature_tests.cxx.o  -o cmTC_8749d 
-make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1de83/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1de83.dir/build.make CMakeFiles/cmTC_1de83.dir/build
+make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1de83.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_1de83.dir/feature_tests.cxx.o -c /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1de83
+/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1de83.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_1de83.dir/feature_tests.cxx.o  -o cmTC_1de83 
+make[1]: Leaving directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -385,17 +385,17 @@ make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CM
 
 
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_31626/fast"
-/usr/bin/make -f CMakeFiles/cmTC_31626.dir/build.make CMakeFiles/cmTC_31626.dir/build
-make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_31626.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_31626.dir/feature_tests.cxx.o -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_31626
-/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31626.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_31626.dir/feature_tests.cxx.o  -o cmTC_31626 
-make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_aa8ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa8ab.dir/build.make CMakeFiles/cmTC_aa8ab.dir/build
+make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa8ab.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_aa8ab.dir/feature_tests.cxx.o -c /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_aa8ab
+/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa8ab.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_aa8ab.dir/feature_tests.cxx.o  -o cmTC_aa8ab 
+make[1]: Leaving directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -458,17 +458,17 @@ make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CM
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_351b9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_351b9.dir/build.make CMakeFiles/cmTC_351b9.dir/build
-make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_351b9.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_351b9.dir/feature_tests.cxx.o -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_351b9
-/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_351b9.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_351b9.dir/feature_tests.cxx.o  -o cmTC_351b9 
-make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d307d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d307d.dir/build.make CMakeFiles/cmTC_d307d.dir/build
+make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d307d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_d307d.dir/feature_tests.cxx.o -c /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d307d
+/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d307d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d307d.dir/feature_tests.cxx.o  -o cmTC_d307d 
+make[1]: Leaving directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -531,17 +531,17 @@ make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CM
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f1c14/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f1c14.dir/build.make CMakeFiles/cmTC_f1c14.dir/build
-make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f1c14.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f1c14.dir/feature_tests.cxx.o -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f1c14
-/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1c14.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f1c14.dir/feature_tests.cxx.o  -o cmTC_f1c14 
-make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_429f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_429f3.dir/build.make CMakeFiles/cmTC_429f3.dir/build
+make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_429f3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_429f3.dir/feature_tests.cxx.o -c /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_429f3
+/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_429f3.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_429f3.dir/feature_tests.cxx.o  -o cmTC_429f3 
+make[1]: Leaving directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -604,17 +604,17 @@ make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CM
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_43e3a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_43e3a.dir/build.make CMakeFiles/cmTC_43e3a.dir/build
-make[1]: Entering directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_43e3a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_43e3a.dir/feature_tests.cxx.o -c /home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_43e3a
-/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43e3a.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_43e3a.dir/feature_tests.cxx.o  -o cmTC_43e3a 
-make[1]: Leaving directory '/home/mateusz/repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_23bcc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_23bcc.dir/build.make CMakeFiles/cmTC_23bcc.dir/build
+make[1]: Entering directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_23bcc.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_23bcc.dir/feature_tests.cxx.o -c /home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_23bcc
+/home/mateusz/bin/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23bcc.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_23bcc.dir/feature_tests.cxx.o  -o cmTC_23bcc 
+make[1]: Leaving directory '/home/mateusz/Repos/rpg-game-qt/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

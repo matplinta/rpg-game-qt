@@ -70,11 +70,12 @@ void Location::setNight(bool night) {
 LocationHome::LocationHome():Location(0)
     {
 
-        addElement(new Item(10,7, "*", "Iteeem", "aaa", 100, 5,100,0,0,0));
-        addElement(new Item(11,7, "*", "i2", "aaa", 1111, 5,5,0,0,0));
-        addElement(new Item(12,7, "*", "i3", "aaa", 102220, 5,5,0,0,0));
+        addElement(new Item(10,7, "*", "Potion", "Use it to restore your health", 20, 0,0,0,0,0));
+        addElement(new Item(9,7, "*", "Full Potion", "Restore all player's health", 100, 5,100,0,0,0));
+        addElement(new Item(11,7, "*", "Power Booster", "aaa", 1111, 5,5,0,0,0));
+        addElement(new Item(12,7, "*", "Defence Booster", "aaa", 102220, 5,5,0,0,0));
         addElement(new Opponent(27,7,"o","Ghost", 1));
-        addElement(new Villager(5,5, "B","lol", 2));
+        addElement(new Villager(5,5, "B","lol", "info"));
         addElement(new Door(27,18,"ShadowHills0", 25, 7));
         addElement(new Door(28,18,"ShadowHills0", 25, 7));
 
@@ -83,8 +84,8 @@ LocationHome::LocationHome():Location(0)
     LocationShadowHills0::LocationShadowHills0():Location(1)
     {
         addElement(new Item(8,2, "*", "POTION", "Replenishes player's health", 100, 0,0,0,0,0));
-        addElement(new Villager(5,5, "f","lol", 2));
-        addElement(new Villager(5, 6, "m","lol", 2));
+        addElement(new Villager(5,5, "f", "", "Welcome Adventurer! I may have a fun quest for you. Ask my husband for details."));
+        addElement(new Villager(5, 6, "m","", "Some info"));
         addElement(new Door(0,6,"E","ShadowHills1", 36, 6));
         addElement(new Door(25,7,"Home", 28, 18));
         addElement(new Door(18, 8, "c","Cave", 19, 19));
@@ -106,47 +107,3 @@ LocationHome::LocationHome():Location(0)
         addElement(new Door(19,19,"c","ShadowHills0", 18, 8));
         addElement(new Opponent(27,7,"o","Ghost", 5));
 }
-
-
-
-
-//    Location * LocationFlyweight::getLocation(std::string locName)
-//    {
-//        std::map<std::string, Location*>::iterator findLocation = visitedLocations.find(locName);
-//        if(findLocation == visitedLocations.end())
-//        {
-//            Location* newLocation = LocationFactory::createLocation(locName);
-//            this->visitedLocations[locName] = newLocation;
-//            return newLocation;
-//        }
-//        else{
-//            //QMessageBox::information(0, "info", "already visited location. You are smart.");
-//            return findLocation->second;
-//        }
-//
-//    }
-//    LocationFlyweight::~LocationFlyweight()
-//    {
-//        for(std::map<std::string, Location* >::iterator locat = visitedLocations.begin(); locat != visitedLocations.end(); locat)
-//        {
-//            if(locat->second)
-//            {
-//                delete locat->second;
-//                locat->second = NULL;
-//            }
-//        }
-//        visitedLocations.clear();
-//    }
-//    LocationFlyweight& LocationFlyweight::getFlyweight()
-//    {
-//        static LocationFlyweight locF;
-//        return locF;
-//    }
-//
-//const std::map<std::string, Location *> &LocationFlyweight::getVisitedLocations() const {
-//    return visitedLocations;
-//}
-//
-//void LocationFlyweight::setVisitedLocations(const std::map<std::string, Location *> &visitedLocations) {
-//    LocationFlyweight::visitedLocations = visitedLocations;
-//}

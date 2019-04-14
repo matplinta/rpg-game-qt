@@ -148,7 +148,7 @@
   <!--<zorder>graphicsView</zorder>-->
   <zorder>tableWidget</zorder>
   <!--<zorder>layoutWidget</zorder>-->
-  <!--<zorder>graphicsView_2</zorder>-->
+  <zorder>graphicsView_2</zorder>
   <!--<zorder>controlsButton</zorder>-->
  </widget>
  <resources>
